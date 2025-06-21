@@ -1,1574 +1,922 @@
-# 🏗️ Atelier: Intelligent Visual Architecture Platform
-## *Complete Development Guide – From MVP to Full Platform*
+# Atelier MVP - Detailed Sprint Plans
 
----
+## Week 1: Foundation & GitHub Integration
+**Sprint Goal**: Establish secure GitHub connection with real-time repository monitoring
+**Deliverable**: Connected repositories with webhook-based change detection
 
-## 🎯 Why "Atelier"?
+### Day 1-2: Project Architecture & Database Design
+**Focus**: Foundational decisions that will support 100+ repositories
 
-Just as Renaissance masters taught apprentices in their **ateliers** (workshops), modern developers need a **visual workspace** where they can learn architecture through hands-on practice with intelligent guidance.
-
-**The Visual Workshop Metaphor:**
-- **Traditional Coding Tutorials** = Teaching brush strokes in isolation
-- **Atelier Platform** = Master's visual studio where you compose entire architectural masterpieces
-
-In our digital atelier, every project becomes a **visual learning experience**, every architectural decision is **diagrammed and explained**, and every developer evolves from code writer to **system architect**.
-
----
-
-## 📑 Table of Contents
-
-<details>
-<summary><strong>Complete Development Guide</strong></summary>
-
-- [🚀 Enhanced MVP Strategy](#-enhanced-mvp-strategy)
-- [🎯 Executive Summary](#-executive-summary)
-- [🌍 Background & Motivation](#-background--motivation)
-- [🎯 Core Vision & Objectives](#-core-vision--objectives)
-- [🔥 30-Day Enhanced Development Plan](#-30-day-enhanced-development-plan)
-- [💎 Enhanced Feature Set](#-enhanced-feature-set)
-- [🛠️ Enhanced Technology Stack](#️-enhanced-technology-stack)
-- [🎨 Visual Design System](#-visual-design-system)
-- [💰 Enhanced Budget & Cost Management](#-enhanced-budget--cost-management)
-- [📋 Complete Development Checklist](#-complete-development-checklist)
-- [🗺️ Full Platform Development Roadmap](#️-full-platform-development-roadmap)
-- [🏗️ System Architecture Evolution](#️-system-architecture-evolution)
-- [🤖 AI Model Strategy](#-ai-model-strategy)
-- [🔧 MCP Servers & AI Agents Integration](#-mcp-servers--ai-agents-integration)
-
-</details>
-
----
-
-## 🚀 Enhanced MVP Strategy
-
-### Core MVP Definition: "Visual Architecture Learning Companion"
-
-**Primary Value Proposition:** Transform abstract architectural concepts into **interactive visual experiences** that teach through practice, not theory.
-
-### MVP Success Metrics
-
-| Metric | Target | Timeline |
-|--------|---------|----------|
-| **User Registrations** | 500+ | 30 days |
-| **Projects Created** | 1,000+ | 30 days |
-| **Template Completion Rate** | 70%+ | Weekly tracking |
-| **Daily Active Users** | 100+ | Week 4 |
-| **User Session Duration** | 15+ minutes | Week 3 |
-| **AI Interaction Rate** | 60%+ | Week 4 |
-
-### 30-Day Sprint Timeline
-
-```mermaid
-gantt
-    title Atelier MVP - 30 Day Development Sprint
-    dateFormat  YYYY-MM-DD
-    section Foundation
-    Project Setup & Design System    :a1, 2024-01-01, 3d
-    Database & Auth Infrastructure   :a2, after a1, 4d
-    section Core Features
-    Template Engine Development      :b1, after a2, 5d
-    Interactive Diagram System       :b2, 2024-01-08, 7d
-    section AI Integration
-    Claude API Integration           :c1, 2024-01-15, 4d
-    Smart Q&A Implementation         :c2, after c1, 3d
-    section Launch Prep
-    Testing & Bug Fixes             :d1, 2024-01-22, 4d
-    Content Creation & Polish       :d2, 2024-01-24, 4d
-    Production Deployment           :d3, 2024-01-28, 2d
-```
-
----
-
-## 🎯 Executive Summary
-
-### The Problem
-**73% of software projects fail due to poor architectural decisions**, yet developers learn architecture through abstract theory rather than **visual, hands-on practice**. Current educational tools focus on code syntax rather than system design thinking.
-
-### The Solution
-**Atelier** is an intelligent visual platform that teaches software architecture through:
-- **Interactive project templates** with built-in architectural guidance
-- **Real-time diagram generation** that visualizes system relationships
-- **AI-powered mentorship** that explains architectural decisions contextually
-- **Progressive complexity** that grows with developer expertise
-
-### Target Users
-1. **Junior-to-Mid Developers** (Primary): 2-5 years experience, seeking architectural skills
-2. **Bootcamp Graduates** (Secondary): Need portfolio projects that demonstrate system thinking
-3. **CS Students** (Secondary): Want practical application of theoretical knowledge
-4. **Career Switchers** (Tertiary): Building technical credibility through quality projects
-
-### Competitive Advantage
-| Competitors | Atelier Advantage |
-|-------------|-------------------|
-| **GitHub Templates** | Static vs. **Interactive with AI guidance** |
-| **Tutorial Platforms** | Code-focused vs. **Architecture-first visual learning** |
-| **Draw.io/Lucidchart** | Manual diagramming vs. **Automated architectural visualization** |
-| **Coding Bootcamps** | Generic curriculum vs. **Personalized learning paths** |
-
-### Revenue Potential
-- **Freemium Model**: Core templates free, advanced features $19/month
-- **Enterprise Licensing**: Team features, custom templates $99/month per team
-- **Marketplace Revenue**: 30% commission on community-created templates
-- **Certification Programs**: Architectural competency credentials $199/certification
-
----
-
-## 🌍 Background & Motivation
-
-### Market Pain Points
-
-**Developer Skills Gap:**
-- 📊 **89%** of CS graduates feel unprepared for architectural responsibilities
-- 💰 **$2.84 trillion** in global technical debt from poor architectural decisions
-- 📈 **340%** increase in "Software Architect" job postings since 2020
-- 🎓 **67%** of side projects abandoned due to poor initial structure
-
-### Current Reality vs. Atelier Visual Solution
-
-| Current Reality | Atelier Visual Solution |
-|----------------|-------------------------|
-| **Abstract architectural concepts** | **Interactive visual diagrams** showing system relationships |
-| **Generic boilerplate templates** | **Intelligent templates** that adapt to specific requirements |
-| **No guidance on architectural decisions** | **AI mentor** explaining why patterns were chosen |
-| **Text-based documentation** | **Living visual documentation** that updates with code |
-| **Isolated learning experiences** | **Progressive learning paths** with measurable skill development |
-| **Portfolio projects look identical** | **Unique architectures** tailored to specific problem domains |
-
-### The Architecture Education Crisis
-
-**Current State:**
-- Developers learn by copying code without understanding system design
-- Architecture knowledge comes from expensive mistakes in production
-- No structured path from junior coding to senior architectural thinking
-- Visual learners struggle with text-heavy architectural resources
-
-**Atelier's Approach:**
-- **Visual-first learning** that makes abstract concepts concrete
-- **Practice-based education** through real project construction
-- **AI-guided mentorship** providing contextual architectural insights
-- **Progressive skill building** with measurable advancement
-
----
-
-## 🎯 Core Vision & Objectives
-
-```mermaid
-mindmap
-  root((Atelier Visual Core))
-    Interactive Templates
-      Domain-Specific Starters
-      Smart Customization
-      Guided Implementation
-      Progressive Complexity
-    Visual Architecture Engine
-      Real-time Diagram Generation
-      System Relationship Mapping
-      Interactive Component Explorer
-      Architecture Pattern Visualization
-    AI Learning Companion
-      Contextual Explanations
-      Decision Rationale
-      Best Practice Guidance
-      Personalized Learning Paths
-    Community Knowledge Hub
-      Template Marketplace
-      Project Showcases
-      Peer Learning
-      Expert Mentorship
-```
-
-### Five Core Technical Objectives
-
-#### 1. 🎨 **Visual Architecture Engine**
-Transform abstract system designs into **interactive, explorable diagrams** that update in real-time as projects evolve.
-
-#### 2. 🧩 **Intelligent Template System**
-Replace static boilerplate with **adaptive project foundations** that customize based on requirements and learning objectives.
-
-#### 3. 🤖 **AI Learning Companion**
-Provide **contextual architectural mentorship** that explains decisions, suggests improvements, and guides skill development.
-
-#### 4. 📊 **Progressive Skill Tracking**
-Measure and visualize **architectural competency growth** through project analysis and decision quality assessment.
-
-#### 5. 🌐 **Community Knowledge Network**
-Enable **collaborative learning** where architectural expertise is shared, validated, and continuously improved.
-
----
-
-## 🔥 30-Day Enhanced Development Plan
-
-### High-Level Workflow Dependencies
-
-```mermaid
-flowchart TD
-    A[Week 1: Foundation] --> B[Week 2: Core Features]
-    B --> C[Week 3: AI Integration]
-    C --> D[Week 4: Launch Prep]
-    
-    A1[Design System] --> B1[Template Engine]
-    A2[Database Setup] --> B2[Interactive Diagrams]
-    A3[Auth System] --> C1[Claude API]
-    
-    B1 --> C2[Smart Q&A]
-    B2 --> C2
-    C1 --> C2
-    
-    C1 --> D1[Testing Suite]
-    C2 --> D1
-    D1 --> D2[Production Deploy]
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-```
-
-### Weekly Breakdown
-
-#### **Week 1: Visual Foundation & Setup**
-**Focus:** Establish technical foundation and visual design system
-
-**Key Deliverables:**
-- ✅ Project initialization with Next.js 14 + TypeScript
-- ✅ Tailwind CSS configuration with custom design tokens
-- ✅ Database schema design and Prisma setup
-- ✅ Authentication system with NextAuth.js
-- ✅ Basic component library with Storybook
-
-**Success Criteria:**
-- Clean development environment with hot reload
-- Database connection and migrations working
-- Authentication flow (GitHub OAuth) functional
-- Design system components documented
-
-#### **Week 2: Interactive Features**
-**Focus:** Build core template engine and diagram visualization
-
-**Key Deliverables:**
-- ✅ Interactive template builder with form-based customization
-- ✅ Mermaid.js integration for real-time diagram rendering
-- ✅ Project structure visualization with file tree explorer
-- ✅ Template metadata system and categorization
-- ✅ Basic project dashboard with creation workflow
-
-**Success Criteria:**
-- Users can create projects from 3 different templates
-- Diagrams render correctly and update with customizations
-- Project data persists and loads reliably
-- Template customization options work as expected
-
-#### **Week 3: AI Integration**
-**Focus:** Implement Claude-powered features for architectural guidance
-
-**Key Deliverables:**
-- ✅ Claude API integration with proper error handling
-- ✅ Smart diagram generation from project requirements
-- ✅ Contextual Q&A system for architectural decisions
-- ✅ Automated ADR (Architecture Decision Record) generation
-- ✅ AI-powered project analysis and recommendations
-
-**Success Criteria:**
-- AI generates relevant architectural diagrams 80% of the time
-- Q&A responses are contextually accurate and helpful
-- System handles API rate limits and errors gracefully
-- ADR generation produces professional-quality documentation
-
-#### **Week 4: Polish & Launch**
-**Focus:** Testing, optimization, and production deployment
-
-**Key Deliverables:**
-- ✅ Comprehensive testing suite (unit, integration, E2E)
-- ✅ Project export functionality (zip download, GitHub creation)
-- ✅ Performance optimization and bundle analysis
-- ✅ SEO optimization and meta tag configuration
-- ✅ Production deployment with monitoring
-
-**Success Criteria:**
-- All critical user flows pass automated tests
-- Page load times under 2 seconds for 95% of requests
-- Export functionality works for all template types
-- Production environment stable with monitoring alerts
-
----
-
-## 💎 Enhanced Feature Set
-
-### Five Rich Project Templates
-
-#### 1. **E-commerce Microservices Architecture**
-```typescript
-interface EcommerceTemplate {
-  services: {
-    userService: MicroserviceConfig
-    productService: MicroserviceConfig
-    orderService: MicroserviceConfig
-    paymentService: MicroserviceConfig
-    notificationService: MicroserviceConfig
-  }
-  infrastructure: {
-    apiGateway: GatewayConfig
-    serviceDiscovery: DiscoveryConfig
-    messageQueue: QueueConfig
-    database: DatabaseConfig[]
-  }
-  patterns: ['CQRS', 'Event Sourcing', 'Saga Pattern']
-  complexity: 'Advanced'
-  estimatedTime: '2-3 weeks'
-}
-```
-
-#### 2. **Real-time Chat Application**
-```typescript
-interface ChatTemplate {
-  architecture: {
-    frontend: 'React + Socket.io'
-    backend: 'Node.js + Express'
-    realtime: 'WebSocket connections'
-    database: 'MongoDB + Redis'
-  }
-  features: {
-    messaging: MessageConfig
-    userPresence: PresenceConfig
-    fileSharing: FileConfig
-    roomManagement: RoomConfig
-  }
-  patterns: ['Publisher-Subscriber', 'Connection Pool', 'Event-Driven']
-  complexity: 'Intermediate'
-  estimatedTime: '1-2 weeks'
-}
-```
-
-#### 3. **AI-Powered Content Management System**
-```typescript
-interface AICMSTemplate {
-  components: {
-    contentEditor: EditorConfig
-    aiProcessor: AIConfig
-    mediaManager: MediaConfig
-    userManagement: UserConfig
-  }
-  aiFeatures: {
-    contentGeneration: 'GPT-4 integration'
-    imageProcessing: 'DALL-E + Vision'
-    seoOptimization: 'Automated meta generation'
-    contentAnalysis: 'Sentiment + readability'
-  }
-  patterns: ['Plugin Architecture', 'Strategy Pattern', 'Observer Pattern']
-  complexity: 'Advanced'
-  estimatedTime: '2-4 weeks'
-}
-```
-
-#### 4. **Serverless Data Pipeline**
-```typescript
-interface DataPipelineTemplate {
-  pipeline: {
-    ingestion: 'AWS Lambda + API Gateway'
-    processing: 'Step Functions + Lambda'
-    storage: 'S3 + DynamoDB'
-    analysis: 'Athena + QuickSight'
-  }
-  dataFlow: {
-    sources: DataSourceConfig[]
-    transformations: TransformationConfig[]
-    destinations: DestinationConfig[]
-  }
-  patterns: ['Event-Driven Architecture', 'ETL Pipeline', 'CQRS']
-  complexity: 'Intermediate'
-  estimatedTime: '1-3 weeks'
-}
-```
-
-#### 5. **Progressive Web App (PWA) Framework**
-```typescript
-interface PWATemplate {
-  architecture: {
-    frontend: 'React + Service Worker'
-    state: 'Redux Toolkit + RTK Query'
-    storage: 'IndexedDB + Cache API'
-    sync: 'Background Sync + Push API'
-  }
-  pwaFeatures: {
-    offline: OfflineConfig
-    installation: InstallConfig
-    notifications: NotificationConfig
-    backgroundSync: SyncConfig
-  }
-  patterns: ['Offline-First', 'App Shell', 'Cache-First']
-  complexity: 'Intermediate'
-  estimatedTime: '1-2 weeks'
-}
-```
-
-### Interactive Diagram Engine
-
-#### Real-Time Architecture Visualization
-```typescript
-interface DiagramEngine {
-  renderers: {
-    mermaid: MermaidRenderer
-    d3: D3Renderer
-    cytoscape: CytoscapeRenderer
-  }
-  
-  diagramTypes: {
-    systemArchitecture: SystemDiagramConfig
-    dataFlow: DataFlowConfig
-    sequenceDiagram: SequenceConfig
-    componentRelationship: ComponentConfig
-  }
-  
-  interactivity: {
-    nodeSelection: NodeSelectionHandler
-    zoomPan: ZoomPanHandler
-    tooltips: TooltipHandler
-    animations: AnimationHandler
-  }
-}
-
-// Mermaid Integration Example
-class MermaidRenderer {
-  generateSystemDiagram(projectConfig: ProjectConfig): string {
-    return `
-    graph TB
-      ${projectConfig.services.map(service => 
-        `${service.id}[${service.name}]`
-      ).join('\n      ')}
-      
-      ${projectConfig.connections.map(conn => 
-        `${conn.from} --> ${conn.to}`
-      ).join('\n      ')}
-    `
-  }
-  
-  generateSequenceDiagram(userFlow: UserFlow): string {
-    return `
-    sequenceDiagram
-      ${userFlow.actors.map(actor => 
-        `participant ${actor.id} as ${actor.name}`
-      ).join('\n      ')}
-      
-      ${userFlow.interactions.map(interaction => 
-        `${interaction.from}->>+${interaction.to}: ${interaction.message}`
-      ).join('\n      ')}
-    `
-  }
-}
-```
-
-### AI Q&A System
-
-#### Contextual Architecture Assistant
-```typescript
-interface AIAssistant {
-  capabilities: {
-    architecturalGuidance: ArchitecturalGuidanceConfig
-    patternRecommendation: PatternRecommendationConfig
-    codeReview: CodeReviewConfig
-    documentationGeneration: DocumentationConfig
-  }
-  
-  contextSources: {
-    projectStructure: ProjectStructureAnalyzer
-    userHistory: UserHistoryAnalyzer
-    industryBestPractices: BestPracticesDB
-    communityKnowledge: CommunityKnowledgeBase
-  }
-}
-
-// Claude API Integration
-class ClaudeAssistant {
-  async analyzeArchitecture(projectData: ProjectData): Promise<ArchitecturalAnalysis> {
-    const prompt = this.buildAnalysisPrompt(projectData)
-    const response = await this.claudeAPI.complete({
-      prompt,
-      max_tokens: 1000,
-      temperature: 0.3
-    })
-    
-    return this.parseArchitecturalAnalysis(response.completion)
-  }
-  
-  async generateADR(decision: ArchitecturalDecision): Promise<ADRDocument> {
-    const template = await this.getADRTemplate(decision.type)
-    const context = await this.gatherDecisionContext(decision)
-    
-    return await this.claudeAPI.generateDocument({
-      template,
-      context,
-      format: 'markdown'
-    })
-  }
-}
-```
-
-### Learning Analytics Engine
-
-#### Progress Tracking System
-```typescript
-interface LearningAnalytics {
-  skillAssessment: {
-    architecturalPatterns: PatternKnowledgeTracker
-    systemDesign: SystemDesignTracker
-    bestPractices: BestPracticesTracker
-    technicalDecisions: DecisionQualityTracker
-  }
-  
-  progressVisualization: {
-    skillRadar: SkillRadarChart
-    learningPath: LearningPathProgress
-    projectComplexity: ComplexityTrendChart
-    communityComparison: PeerComparisonChart
-  }
-  
-  recommendations: {
-    nextProjects: ProjectRecommendationEngine
-    skillGaps: SkillGapAnalyzer
-    learningResources: ResourceRecommendationEngine
-    mentorMatching: MentorMatchingAlgorithm
-  }
-}
-```
-
----
-
-## 🛠️ Enhanced Technology Stack
-
-### Frontend Architecture
-
-
-
-### Data Architecture
-```typescript
-// Redis Caching Strategy
-interface CacheStrategy {
-  templates: {
-    key: 'templates:all'
-    ttl: 3600 // 1 hour
-    invalidation: 'manual'
-  }
-  
-  userProjects: {
-    key: 'user:${userId}:projects'
-    ttl: 900 // 15 minutes
-    invalidation: 'on-update'
-  }
-  
-  aiResponses: {
-    key: 'ai:${hash}:response'
-    ttl: 86400 // 24 hours
-    invalidation: 'time-based'
-  }
-}
-
-// Database Connection Pool
-const prisma = new PrismaClient({
-  datasources: {
-    db: {
-      url: process.env.DATABASE_URL
-    }
-  },
-  log: ['query', 'error', 'warn'],
-})
-```
-
----
-
-## 🎨 Visual Design System
-
-### UI Philosophy
-**"Architectural Clarity"** - Every interface element should reflect the clarity and intentionality we want users to bring to their system designs.
-
----
-
-
-
-### AI Cost-Saving Strategies
-
-```typescript
-interface AICostOptimization {
-  caching: {
-    strategy: 'Redis-based response caching'
-    expectedSavings: '60% on repeated queries'
-    implementation: {
-      keyGeneration: 'Hash user query + project context'
-      ttl: '24 hours for architectural advice'
-      invalidation: 'Project structure changes'
-    }
-  }
-  
-  tokenOptimization: {
-    contextCompression: 'Summarize large project structures'
-    responseStreaming: 'Stream responses to reduce perceived latency'
-    batchProcessing: 'Group similar requests for efficiency'
-    modelSelection: 'Use appropriate model size for query complexity'
-  }
-  
-  usageControls: {
-    rateLimiting: '10 AI queries per user per hour (free tier)'
-    costAlerts: 'Alert at 80% of monthly budget'
-    gracefulDegradation: 'Fallback to cached responses during high usage'
-  }
-}
-```
-
-### Cost Scaling Projection
-
-```mermaid
-xychart-beta
-    title "Monthly Cost Scaling with User Growth"
-    x-axis [0, 100, 500, 1000, 2500, 5000, 10000]
-    y-axis "Monthly Cost ($)" 0 --> 5000
-    line [250, 400, 800, 1200, 2000, 3200, 5000]
-    line [0, 100, 500, 1000, 2500, 5000, 10000]
-```
-
-### Revenue Projections
-
-| User Tier | Monthly Users | Conversion Rate | Monthly Revenue | Annual Revenue |
-|-----------|---------------|-----------------|-----------------|----------------|
-| **Month 1** | 500 | 0% | $0 | $0 |
-| **Month 3** | 1,500 | 5% | $1,425 | $17,100 |
-| **Month 6** | 5,000 | 8% | $7,600 | $91,200 |
-| **Month 12** | 15,000 | 12% | $34,200 | $410,400 |
-
-*Assuming $19/month premium tier with 15% taking annual discount*
-
----
-
-## 📋 Complete Development Checklist
-
-### Master TODO List
-
-#### **Core Infrastructure** ✅
-- [ ] Next.js 14 project initialization with TypeScript
-- [ ] Tailwind CSS setup with custom design tokens
-- [ ] Database schema design and Prisma configuration
-- [ ] Authentication system with NextAuth.js + GitHub OAuth
-- [ ] tRPC API setup with type-safe routes
-- [ ] Redis caching layer configuration
-- [ ] Error monitoring with Sentry integration
-
-#### **Template System** 🎯
-- [ ] Template data structure and validation schemas
-- [ ] Interactive template customization forms
-- [ ] Project generation engine from templates
-- [ ] Template versioning and update system
-- [ ] Community template submission workflow
-
-#### **Visual Architecture Engine** 🎨
-- [ ] Mermaid.js integration for diagram rendering
-- [ ] Interactive diagram editor with pan/zoom
-- [ ] Real-time diagram updates from project changes
-- [ ] Diagram export functionality (PNG, SVG, PDF)
-- [ ] Architecture pattern visualization library
-
-#### **AI Integration** 🤖
-- [ ] Claude API integration with error handling
-- [ ] Contextual Q&A system for architectural guidance
-- [ ] Automated diagram generation from requirements
-- [ ] Smart ADR (Architecture Decision Record) creation
-- [ ] AI-powered project analysis and recommendations
-
----
-
-### Week 1: Visual Foundation & Setup
-
-#### **Day 1-2: Project Initialization**
+#### Technical Tasks
 ```bash
-# Development Setup Checklist
-□ Create Next.js 14 project with TypeScript
-  npx create-next-app@latest atelier --typescript --tailwind --eslint --app
-
-□ Configure essential dependencies
-  npm install @prisma/client prisma next-auth @auth/prisma-adapter
-  npm install @trpc/server @trpc/client @trpc/react-query @trpc/next
-  npm install @tanstack/react-query zustand
-  npm install zod react-hook-form @hookform/resolvers
-  npm install lucide-react @headlessui/react
-
-□ Set up development environment
-  - Configure ESLint + Prettier
-  - Set up Husky pre-commit hooks
-  - Configure TypeScript strict mode
-  - Set up VSCode workspace settings
+# Project structure (monorepo approach)
+atelier/
+├── apps/
+│   ├── web/           # Next.js frontend
+│   ├── api/           # Node.js backend
+│   └── webhook/       # Dedicated webhook handler
+├── packages/
+│   ├── database/      # Prisma schema & migrations
+│   ├── github/        # GitHub API integration
+│   └── analysis/      # Code analysis engine
+└── tools/
+    ├── dev/           # Development scripts
+    └── deploy/        # Deployment configuration
 ```
 
-#### **Day 3-4: Design System Foundation**
+#### Database Schema Design
+```prisma
+// Core entities optimized for GitHub integration
+model User {
+  id          String   @id @default(cuid())
+  githubId    Int      @unique
+  username    String   @unique
+  email       String?
+  avatar      String?
+  accessToken String   @encrypted
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  repositories Repository[]
+  analyses     Analysis[]
+}
+
+model Repository {
+  id          String   @id @default(cuid())
+  githubId    Int      @unique
+  name        String
+  fullName    String   @unique
+  private     Boolean
+  language    String?
+  framework   String?
+  webhookId   String?
+  lastAnalysis DateTime?
+  
+  userId      String
+  user        User @relation(fields: [userId], references: [id])
+  
+  analyses    Analysis[]
+  insights    Insight[]
+  
+  @@index([userId, lastAnalysis])
+}
+
+model Analysis {
+  id          String   @id @default(cuid())
+  commitSha   String
+  patterns    Json     // Detected architectural patterns
+  metrics     Json     // Complexity, dependencies, etc.
+  status      AnalysisStatus
+  processingTime Int?  // milliseconds
+  createdAt   DateTime @default(now())
+  
+  repositoryId String
+  repository   Repository @relation(fields: [repositoryId], references: [id])
+  
+  userId      String
+  user        User @relation(fields: [userId], references: [id])
+  
+  insights    Insight[]
+  
+  @@index([repositoryId, createdAt])
+  @@index([commitSha])
+}
+
+enum AnalysisStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+```
+
+#### Architectural Learning Points
+- **Database Design**: ACID compliance vs. NoSQL flexibility for repository data
+- **Encryption Strategy**: Token security patterns and key rotation
+- **Indexing Strategy**: Query optimization for repository searches and analysis history
+
+### Day 3-4: GitHub OAuth & API Integration
+**Focus**: Secure, scalable GitHub authentication and API usage
+
+#### Implementation Code Sample
 ```typescript
-// Design System Implementation Checklist
-□ Create design token system
-  // tokens/colors.ts
-  export const colors = {
-    primary: {
-      50: '#eff6ff', 100: '#dbeafe', 500: '#3b82f6',
-      600: '#2563eb', 900: '#1e3a8a'
-    },
-    semantic: {
-      success: '#10b981', warning: '#f59e0b',
-      error: '#ef4444', info: '#3b82f6'
+// packages/github/src/auth.ts
+import { Octokit } from '@octokit/rest';
+import { createAppAuth } from '@octokit/auth-app';
+
+export class GitHubService {
+  private octokit: Octokit;
+  
+  constructor(private accessToken: string) {
+    this.octokit = new Octokit({
+      auth: accessToken,
+      throttle: {
+        onRateLimit: (retryAfter, options) => {
+          console.warn(`Rate limit exceeded, retrying after ${retryAfter}s`);
+          return true; // Retry once
+        },
+        onSecondaryRateLimit: () => true
+      }
+    });
+  }
+  
+  async getRepositories(page = 1, perPage = 30) {
+    try {
+      const response = await this.octokit.repos.listForAuthenticatedUser({
+        page,
+        per_page: perPage,
+        sort: 'updated',
+        affiliation: 'owner,collaborator'
+      });
+      
+      return response.data.map(repo => ({
+        githubId: repo.id,
+        name: repo.name,
+        fullName: repo.full_name,
+        private: repo.private,
+        language: repo.language,
+        updatedAt: repo.updated_at
+      }));
+    } catch (error) {
+      throw new GitHubAPIError('Failed to fetch repositories', error);
     }
   }
-
-□ Build core component library
-  - Button variants (primary, secondary, ghost)
-  - Input components with validation states
-  - Card layouts with consistent spacing
-  - Modal and dropdown components
-  - Loading states and skeleton screens
-
-□ Configure Tailwind with custom tokens
-  // tailwind.config.js
-  theme: {
-    extend: {
-      colors: tokens.colors,
-      spacing: tokens.spacing,
-      fontFamily: tokens.typography.fontFamily
+  
+  async createWebhook(repoFullName: string, webhookUrl: string) {
+    const [owner, repo] = repoFullName.split('/');
+    
+    try {
+      const response = await this.octokit.repos.createWebhook({
+        owner,
+        repo,
+        config: {
+          url: webhookUrl,
+          content_type: 'json',
+          secret: process.env.WEBHOOK_SECRET
+        },
+        events: ['push', 'pull_request']
+      });
+      
+      return response.data.id.toString();
+    } catch (error) {
+      throw new GitHubAPIError('Failed to create webhook', error);
     }
   }
+}
 ```
 
-#### **Day 5-7: Database & Authentication**
+#### Rate Limiting Strategy
 ```typescript
-// Database Schema Implementation
-□ Design Prisma schema
-  // prisma/schema.prisma
-  model User {
-    id            String    @id @default(cuid())
-    email         String    @unique
-    name          String?
-    image         String?
-    githubId      String?   @unique
-    
-    projects      Project[]
-    templates     Template[]
-    
-    createdAt     DateTime  @default(now())
-    updatedAt     DateTime  @updatedAt
+// packages/github/src/rate-limiter.ts
+export class GitHubRateLimiter {
+  private static instance: GitHubRateLimiter;
+  private requestQueue: Map<string, Date[]> = new Map();
+  
+  static getInstance() {
+    if (!this.instance) {
+      this.instance = new GitHubRateLimiter();
+    }
+    return this.instance;
   }
-
-  model Project {
-    id            String   @id @default(cuid())
-    name          String
-    description   String?
-    templateId    String
-    userId        String
+  
+  async checkRateLimit(userId: string): Promise<boolean> {
+    const userRequests = this.requestQueue.get(userId) || [];
+    const oneHourAgo = new Date(Date.now() - 60 * 60 * 1000);
     
-    configuration Json
-    architecture  Json
-    progress      Json
+    // Clean old requests
+    const recentRequests = userRequests.filter(time => time > oneHourAgo);
     
-    template      Template @relation(fields: [templateId], references: [id])
-    user          User     @relation(fields: [userId], references: [id])
+    if (recentRequests.length >= 4500) { // Leave buffer for GitHub's 5000/hour
+      return false;
+    }
     
-    createdAt     DateTime @default(now())
-    updatedAt     DateTime @updatedAt
+    recentRequests.push(new Date());
+    this.requestQueue.set(userId, recentRequests);
+    return true;
   }
-
-□ Configure NextAuth.js
-  // pages/api/auth/[...nextauth].ts
-  providers: [
-    GitHubProvider({
-      clientId: process.env.GITHUB_ID,
-      clientSecret: process.env.GITHUB_SECRET,
-    })
-  ],
-  adapter: PrismaAdapter(prisma),
-  callbacks: {
-    session: ({ session, user }) => ({
-      ...session,
-      user: { ...session.user, id: user.id }
-    })
-  }
+}
 ```
+
+### Day 5-6: Webhook Infrastructure
+**Focus**: Real-time repository change detection and processing
+
+#### Webhook Handler Implementation
+```typescript
+// apps/webhook/src/handler.ts
+import { verify } from 'crypto';
+import { queue } from '@atelier/queue';
+
+export async function handleWebhook(req: Request) {
+  // Verify GitHub signature
+  const signature = req.headers.get('x-hub-signature-256');
+  const payload = await req.text();
+  
+  if (!verifyGitHubSignature(payload, signature)) {
+    return new Response('Unauthorized', { status: 401 });
+  }
+  
+  const event = JSON.parse(payload);
+  const eventType = req.headers.get('x-github-event');
+  
+  switch (eventType) {
+    case 'push':
+      await queue.add('analyze-repository', {
+        repositoryId: event.repository.id,
+        commitSha: event.head_commit.id,
+        changedFiles: event.head_commit.modified.concat(event.head_commit.added)
+      });
+      break;
+      
+    case 'pull_request':
+      if (event.action === 'opened' || event.action === 'synchronize') {
+        await queue.add('analyze-pull-request', {
+          repositoryId: event.repository.id,
+          prNumber: event.pull_request.number,
+          headSha: event.pull_request.head.sha
+        });
+      }
+      break;
+  }
+  
+  return new Response('OK');
+}
+
+function verifyGitHubSignature(payload: string, signature: string): boolean {
+  const secret = process.env.WEBHOOK_SECRET;
+  const expectedSignature = `sha256=${crypto
+    .createHmac('sha256', secret)
+    .update(payload)
+    .digest('hex')}`;
+  
+  return crypto.timingSafeEqual(
+    Buffer.from(signature),
+    Buffer.from(expectedSignature)
+  );
+}
+```
+
+### Day 7: Local Development Environment
+**Focus**: Streamlined development setup and testing
+
+#### Development Configuration
+```yaml
+# docker-compose.dev.yml
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: atelier_dev
+      POSTGRES_USER: atelier
+      POSTGRES_PASSWORD: dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+  
+  webhook-tunnel:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --url http://localhost:3001
+    depends_on:
+      - webhook
+    
+volumes:
+  postgres_data:
+```
+
+```typescript
+// tools/dev/setup.ts
+export async function setupDevelopment() {
+  console.log('🚀 Setting up Atelier development environment...');
+  
+  // 1. Check dependencies
+  await checkDependencies(['node', 'docker', 'git']);
+  
+  // 2. Start services
+  await exec('docker-compose -f docker-compose.dev.yml up -d');
+  
+  // 3. Run migrations
+  await exec('npx prisma migrate dev');
+  
+  // 4. Seed database
+  await seedDatabase();
+  
+  // 5. Start development servers
+  await Promise.all([
+    exec('npm run dev:web'),
+    exec('npm run dev:api'),
+    exec('npm run dev:webhook')
+  ]);
+  
+  console.log('✅ Development environment ready!');
+  console.log('🌐 Web: http://localhost:3000');
+  console.log('🔗 API: http://localhost:3001');
+  console.log('📨 Webhooks: https://tunnel-url.trycloudflare.com');
+}
+```
+
+**Week 1 Success Criteria:**
+- ✅ GitHub OAuth authentication working
+- ✅ Repository list displayed in dashboard
+- ✅ Webhooks successfully receiving push events
+- ✅ Database schema supporting 1000+ repositories
+- ✅ Development environment setup in <5 minutes
 
 ---
 
-### Week 2: Interactive Features
+## Week 2: Analysis Engine Core
+**Sprint Goal**: Build pattern recognition system for JavaScript/TypeScript projects
+**Deliverable**: Automated architectural insights from repository analysis
 
-#### **Day 8-10: Template Builder Engine**
+### Day 8-9: Code Analysis Pipeline Architecture
+**Focus**: Scalable, queue-based processing system
+
+#### Queue Architecture
 ```typescript
-// Template Builder Implementation
-□ Create template data structure
-  interface TemplateConfig {
-    id: string
-    name: string
-    category: 'frontend' | 'backend' | 'fullstack' | 'mobile'
-    complexity: 'beginner' | 'intermediate' | 'advanced'
-    
-    structure: {
-      directories: DirectoryNode[]
-      files: FileTemplate[]
-      dependencies: DependencyConfig[]
-    }
-    
-    customization: {
-      fields: CustomizationField[]
-      conditionals: ConditionalLogic[]
-      validation: ValidationRules[]
-    }
-    
-    learning: {
-      objectives: string[]
-      concepts: string[]
-      patterns: string[]
-      estimatedTime: string
-    }
-  }
+// packages/queue/src/analysis-queue.ts
+import Bull from 'bull';
+import { Redis } from 'ioredis';
 
-□ Build interactive customization forms
-  // components/TemplateCustomizer.tsx
-  const TemplateCustomizer = ({ template }: { template: Template }) => {
-    const [config, setConfig] = useState<CustomizationConfig>({})
-    const [errors, setErrors] = useState<ValidationErrors>({})
-    
-    return (
-      <div className="space-y-6">
-        {template.customization.fields.map(field => (
-          <CustomizationField 
-            key={field.id}
-            field={field}
-            value={config[field.id]}
-            onChange={(value) => setConfig(prev => ({ ...prev, [field.id]: value }))}
-            error={errors[field.id]}
-          />
-        ))}
-        
-        <ProjectPreview config={config} template={template} />
-        <GenerateButton onClick={() => generateProject(config)} />
-      </div>
-    )
-  }
-
-□ Implement project generation engine
-  // lib/projectGenerator.ts
-  export class ProjectGenerator {
-    async generateProject(template: Template, config: CustomizationConfig): Promise<ProjectStructure> {
-      const structure = await this.processTemplate(template, config)
-      const files = await this.generateFiles(structure, config)
-      const documentation = await this.generateDocumentation(template, config)
-      
-      return { structure, files, documentation }
-    }
-  }
-```
-
-#### **Day 11-14: Architecture Visualizer**
-```typescript
-// Mermaid Renderer Implementation
-□ Create dynamic diagram generation
-  // lib/diagramRenderer.ts
-  export class MermaidRenderer {
-    generateSystemDiagram(project: ProjectConfig): string {
-      const services = project.services || []
-      const connections = project.connections || []
-      
-      return `
-        graph TB
-          ${services.map(service => 
-            `${service.id}[${service.name}<br/>:${service.type}:]`
-          ).join('\n          ')}
-          
-          ${connections.map(conn => 
-            `${conn.from} -->|${conn.protocol}| ${conn.to}`
-          ).join('\n          ')}
-          
-          ${this.generateStyling(services)}
-      `
-    }
-    
-    generateDataFlowDiagram(dataFlow: DataFlowConfig): string {
-      return `
-        flowchart LR
-          ${dataFlow.sources.map(source => 
-            `${source.id}[(${source.name})]`
-          ).join('\n          ')}
-          
-          ${dataFlow.processes.map(process => 
-            `${process.id}{${process.name}}`
-          ).join('\n          ')}
-          
-          ${dataFlow.destinations.map(dest => 
-            `${dest.id}[${dest.name}]`
-          ).join('\n          ')}
-          
-          ${dataFlow.flows.map(flow => 
-            `${flow.from} --> ${flow.to}`
-          ).join('\n          ')}
-      `
-    }
-    
-    generateSequenceDiagram(interactions: UserInteraction[]): string {
-      const actors = new Set(interactions.flatMap(i => [i.from, i.to]))
-      
-      return `
-        sequenceDiagram
-          ${Array.from(actors).map(actor => 
-            `participant ${actor}`
-          ).join('\n          ')}
-          
-          ${interactions.map(interaction => 
-            `${interaction.from}->>+${interaction.to}: ${interaction.message}`
-          ).join('\n          ')}
-      `
-    }
-  }
-
-□ Build interactive diagram viewer
-  // components/DiagramViewer.tsx
-  const DiagramViewer = ({ project }: { project: Project }) => {
-    const [diagramType, setDiagramType] = useState<DiagramType>('system')
-    const [zoom, setZoom] = useState(1)
-    const diagramRef = useRef<HTMLDivElement>(null)
-    
-    const diagrams = {
-      system: renderer.generateSystemDiagram(project.configuration),
-      dataflow: renderer.generateDataFlowDiagram(project.dataFlow),
-      sequence: renderer.generateSequenceDiagram(project.userFlows)
-    }
-    
-    useEffect(() => {
-      mermaid.render('diagram', diagrams[diagramType], (svg) => {
-        if (diagramRef.current) {
-          diagramRef.current.innerHTML = svg
+export class AnalysisQueue {
+  private queue: Bull.Queue;
+  private redis: Redis;
+  
+  constructor() {
+    this.redis = new Redis(process.env.REDIS_URL);
+    this.queue = new Bull('repository-analysis', {
+      redis: { port: 6379, host: 'localhost' },
+      defaultJobOptions: {
+        removeOnComplete: 100,
+        removeOnFail: 50,
+        attempts: 3,
+        backoff: {
+          type: 'exponential',
+          delay: 2000
         }
-      })
-    }, [diagramType, project])
+      }
+    });
     
-    return (
-      <div className="diagram-container">
-        <DiagramControls 
-          type={diagramType} 
-          onTypeChange={setDiagramType}
-          zoom={zoom}
-          onZoomChange={setZoom}
-        />
-        <div 
-          ref={diagramRef} 
-          className="diagram-content"
-          style={{ transform: `scale(${zoom})` }}
-        />
-        <DiagramExportMenu project={project} />
-      </div>
-    )
+    this.setupProcessors();
   }
+  
+  private setupProcessors() {
+    this.queue.process('analyze-repository', 5, async (job) => {
+      const { repositoryId, commitSha, changedFiles } = job.data;
+      
+      try {
+        const analyzer = new RepositoryAnalyzer(repositoryId);
+        const analysis = await analyzer.analyze(commitSha, changedFiles);
+        
+        await this.saveAnalysisResults(analysis);
+        await this.generateInsights(analysis);
+        
+        return analysis;
+      } catch (error) {
+        throw new Error(`Analysis failed: ${error.message}`);
+      }
+    });
+  }
+  
+  async addAnalysisJob(data: AnalysisJobData) {
+    return this.queue.add('analyze-repository', data, {
+      priority: data.urgent ? 10 : 5,
+      delay: data.delay || 0
+    });
+  }
+}
 ```
 
----
+### Day 10-11: AST Parsing & Pattern Recognition
+**Focus**: Intelligent code analysis for architectural patterns
 
-### Week 3: AI Integration
-
-#### **Day 15-18: Claude-Powered Diagram Generation**
+#### AST Analysis Implementation
 ```typescript
-// AI Diagram Generation API Routes
-□ Implement Claude API integration
-  // pages/api/ai/generate-diagram.ts
-  export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-    const { requirements, projectType, complexity } = req.body
+// packages/analysis/src/ast-analyzer.ts
+import * as ts from 'typescript';
+import { parse } from '@babel/parser';
+import traverse from '@babel/traverse';
+
+export class ASTAnalyzer {
+  async analyzeTypeScript(code: string, filePath: string): Promise<FileAnalysis> {
+    const sourceFile = ts.createSourceFile(
+      filePath,
+      code,
+      ts.ScriptTarget.Latest,
+      true
+    );
+    
+    const analysis: FileAnalysis = {
+      components: [],
+      imports: [],
+      exports: [],
+      patterns: [],
+      complexity: 0
+    };
+    
+    const visit = (node: ts.Node) => {
+      switch (node.kind) {
+        case ts.SyntaxKind.FunctionDeclaration:
+        case ts.SyntaxKind.ArrowFunction:
+          analysis.complexity += this.calculateComplexity(node);
+          break;
+          
+        case ts.SyntaxKind.ImportDeclaration:
+          analysis.imports.push(this.extractImport(node as ts.ImportDeclaration));
+          break;
+          
+        case ts.SyntaxKind.ClassDeclaration:
+          analysis.components.push(this.extractClass(node as ts.ClassDeclaration));
+          break;
+      }
+      
+      ts.forEachChild(node, visit);
+    };
+    
+    visit(sourceFile);
+    
+    // Detect architectural patterns
+    analysis.patterns = this.detectPatterns(analysis);
+    
+    return analysis;
+  }
+  
+  private detectPatterns(analysis: FileAnalysis): ArchitecturalPattern[] {
+    const patterns: ArchitecturalPattern[] = [];
+    
+    // React Component Pattern
+    if (this.isReactComponent(analysis)) {
+      patterns.push({
+        type: 'REACT_COMPONENT',
+        confidence: 0.9,
+        description: 'React functional or class component detected',
+        suggestions: this.getReactSuggestions(analysis)
+      });
+    }
+    
+    // Custom Hook Pattern
+    if (this.isCustomHook(analysis)) {
+      patterns.push({
+        type: 'CUSTOM_HOOK',
+        confidence: 0.85,
+        description: 'React custom hook pattern detected',
+        suggestions: ['Consider memoization', 'Add error handling']
+      });
+    }
+    
+    // Repository Pattern
+    if (this.isRepositoryPattern(analysis)) {
+      patterns.push({
+        type: 'REPOSITORY_PATTERN',
+        confidence: 0.8,
+        description: 'Data access repository pattern detected',
+        suggestions: ['Add interface abstraction', 'Consider dependency injection']
+      });
+    }
+    
+    return patterns;
+  }
+}
+```
+
+#### Pattern Detection Logic
+```typescript
+// packages/analysis/src/pattern-detector.ts
+export class PatternDetector {
+  detectReactPatterns(fileAnalyses: FileAnalysis[]): ProjectPattern[] {
+    const patterns: ProjectPattern[] = [];
+    
+    // Component Architecture Analysis
+    const components = fileAnalyses.flatMap(f => f.components);
+    const componentStructure = this.analyzeComponentStructure(components);
+    
+    if (componentStructure.hasAtomicDesign) {
+      patterns.push({
+        type: 'ATOMIC_DESIGN',
+        scope: 'PROJECT',
+        confidence: 0.9,
+        impact: 'HIGH',
+        description: 'Atomic design pattern detected in component structure',
+        files: componentStructure.relatedFiles,
+        suggestions: [
+          'Ensure consistent naming conventions',
+          'Consider Storybook for component documentation',
+          'Add prop type validation'
+        ]
+      });
+    }
+    
+    // State Management Patterns
+    const stateManagement = this.analyzeStateManagement(fileAnalyses);
+    if (stateManagement.pattern === 'REDUX') {
+      patterns.push({
+        type: 'REDUX_PATTERN',
+        scope: 'PROJECT',
+        confidence: stateManagement.confidence,
+        impact: 'HIGH',
+        description: 'Redux state management pattern detected',
+        suggestions: [
+          'Consider Redux Toolkit for simpler syntax',
+          'Implement proper error handling in reducers',
+          'Add middleware for async actions'
+        ]
+      });
+    }
+    
+    return patterns;
+  }
+  
+  private analyzeComponentStructure(components: ComponentInfo[]): ComponentStructure {
+    const directories = components.map(c => c.filePath.split('/').slice(0, -1));
+    const hasAtomicStructure = this.hasAtomicDesignStructure(directories);
+    
+    return {
+      hasAtomicDesign: hasAtomicStructure,
+      componentCount: components.length,
+      averageComplexity: components.reduce((sum, c) => sum + c.complexity, 0) / components.length,
+      relatedFiles: components.map(c => c.filePath)
+    };
+  }
+}
+```
+
+### Day 12-13: AI Integration for Insights
+**Focus**: Generate actionable architectural guidance
+
+#### AI Insight Generation
+```typescript
+// packages/analysis/src/insight-generator.ts
+import OpenAI from 'openai';
+
+export class InsightGenerator {
+  private openai: OpenAI;
+  
+  constructor() {
+    this.openai = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY
+    });
+  }
+  
+  async generateInsights(analysis: ProjectAnalysis): Promise<ArchitecturalInsight[]> {
+    const insights: ArchitecturalInsight[] = [];
+    
+    // Generate pattern-specific insights
+    for (const pattern of analysis.patterns) {
+      const insight = await this.generatePatternInsight(pattern, analysis);
+      if (insight) insights.push(insight);
+    }
+    
+    // Generate complexity insights
+    const complexityInsight = await this.generateComplexityInsight(analysis);
+    if (complexityInsight) insights.push(complexityInsight);
+    
+    // Generate dependency insights
+    const dependencyInsight = await this.generateDependencyInsight(analysis);
+    if (dependencyInsight) insights.push(dependencyInsight);
+    
+    return insights;
+  }
+  
+  private async generatePatternInsight(
+    pattern: ArchitecturalPattern,
+    analysis: ProjectAnalysis
+  ): Promise<ArchitecturalInsight | null> {
+    const prompt = `
+    Analyze this architectural pattern in a JavaScript/TypeScript project:
+    
+    Pattern: ${pattern.type}
+    Confidence: ${pattern.confidence}
+    Description: ${pattern.description}
+    
+    Project Context:
+    - Total files: ${analysis.fileCount}
+    - Main framework: ${analysis.framework}
+    - Average complexity: ${analysis.averageComplexity}
+    
+    Provide a concise architectural insight (max 150 words) that includes:
+    1. What this pattern indicates about the project's architecture
+    2. One specific improvement suggestion
+    3. Potential risks if not addressed
+    
+    Focus on actionable guidance for intermediate developers.
+    `;
     
     try {
-      const prompt = buildDiagramPrompt(requirements, projectType, complexity)
-      const response = await claudeClient.complete({
-        prompt,
-        max_tokens: 1500,
+      const response = await this.openai.chat.completions.create({
+        model: 'gpt-4',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 200,
         temperature: 0.3
-      })
+      });
       
-      const diagramSpec = parseDiagramResponse(response.completion)
-      const mermaidCode = convertToMermaid(diagramSpec)
-      
-      res.status(200).json({ 
-        diagram: mermaidCode,
-        explanation: diagramSpec.explanation,
-        alternatives: diagramSpec.alternatives
-      })
-    } catch (error) {
-      res.status(500).json({ error: 'Failed to generate diagram' })
-    }
-  }
-
-□ Create intelligent diagram suggestions
-  // lib/aiDiagramGenerator.ts
-  export class AIDiagramGenerator {
-    async generateFromRequirements(requirements: string, context: ProjectContext): Promise<DiagramSuggestion[]> {
-      const prompt = `
-        Given these requirements: "${requirements}"
-        And this project context: ${JSON.stringify(context)}
-        
-        Generate 3 different architectural approaches as Mermaid diagrams.
-        For each approach, explain:
-        1. Why this architecture fits the requirements
-        2. Trade-offs and considerations
-        3. Scalability implications
-        4. Implementation complexity
-        
-        Format as JSON with diagram code and explanations.
-      `
-      
-      const response = await this.claudeClient.complete({ prompt })
-      return this.parseMultipleDiagramResponse(response.completion)
-    }
-    
-    async explainArchitecturalDecision(decision: ArchitecturalDecision, project: Project): Promise<ADRDocument> {
-      const context = await this.gatherProjectContext(project)
-      const prompt = this.buildADRPrompt(decision, context)
-      
-      const response = await this.claudeClient.complete({ prompt })
-      return this.parseADRResponse(response.completion)
-    }
-  }
-```
-
-#### **Day 19-21: Smart Q&A API Routes**
-```typescript
-// Contextual Q&A System
-□ Build smart Q&A API endpoints
-  // pages/api/ai/ask-question.ts
-  export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-    const { question, projectId, context } = req.body
-    
-    try {
-      // Get project context
-      const project = await prisma.project.findUnique({
-        where: { id: projectId },
-        include: { template: true, user: true }
-      })
-      
-      // Build contextual prompt
-      const prompt = buildContextualPrompt(question, project, context)
-      
-      // Get cached response if available
-      const cacheKey = generateCacheKey(prompt)
-      const cached = await redis.get(cacheKey)
-      
-      if (cached) {
-        return res.status(200).json(JSON.parse(cached))
-      }
-      
-      // Generate new response
-      const response = await claudeClient.complete({
-        prompt,
-        max_tokens: 1000,
-        temperature: 0.4
-      })
-      
-      const answer = parseAIResponse(response.completion)
-      
-      // Cache the response
-      await redis.setex(cacheKey, 86400, JSON.stringify(answer))
-      
-      res.status(200).json(answer)
-    } catch (error) {
-      res.status(500).json({ error: 'Failed to generate answer' })
-    }
-  }
-
-□ Create intelligent context gathering
-  // lib/contextGatherer.ts
-  export class ContextGatherer {
-    async gatherProjectContext(project: Project): Promise<ProjectContext> {
       return {
-        architecture: project.architecture,
-        template: project.template,
-        configuration: project.configuration,
-        recentChanges: await this.getRecentChanges(project.id),
-        userSkillLevel: await this.assessUserSkillLevel(project.userId),
-        similarProjects: await this.findSimilarProjects(project)
+        id: generateId(),
+        type: 'PATTERN_ANALYSIS',
+        title: `${pattern.type} Analysis`,
+        content: response.choices[0].message.content,
+        priority: this.calculatePriority(pattern),
+        actionable: true,
+        relatedFiles: pattern.files || [],
+        createdAt: new Date()
+      };
+    } catch (error) {
+      console.error('Failed to generate AI insight:', error);
+      return null;
+    }
+  }
+}
+```
+
+**Week 2 Success Criteria:**
+- ✅ Repository analysis processing within 30 seconds
+- ✅ 5+ architectural patterns accurately detected per repository
+- ✅ AI-generated insights relevant and actionable (80%+ user rating)
+- ✅ Queue system handling 100+ analysis jobs without blocking
+
+---
+
+## Week 3: Visualization & Dashboard
+**Sprint Goal**: Create rich, interactive visualizations and user dashboard
+**Deliverable**: Real-time dashboard with dependency graphs and architectural insights
+
+### Day 15-16: Frontend Architecture & Component Design
+**Focus**: Scalable, reusable component architecture
+
+#### Component Architecture
+```typescript
+// apps/web/src/components/architecture/VisualizationProvider.tsx
+import React, { createContext, useContext, useReducer } from 'react';
+
+interface VisualizationState {
+  repositories: Repository[];
+  selectedRepo: Repository | null;
+  currentAnalysis: Analysis | null;
+  visualizations: {
+    dependencyGraph: DependencyGraph | null;
+    complexityHeatmap: ComplexityData | null;
+    architectureOverview: ArchitectureData | null;
+  };
+  loading: {
+    repositories: boolean;
+    analysis: boolean;
+    visualizations: boolean;
+  };
+}
+
+export const VisualizationProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [state, dispatch] = useReducer(visualizationReducer, initialState);
+  
+  const actions = {
+    selectRepository: (repo: Repository) => {
+      dispatch({ type: 'SELECT_REPOSITORY', payload: repo });
+      // Trigger analysis loading
+      loadRepositoryAnalysis(repo.id);
+    },
+    
+    updateAnalysis: (analysis: Analysis) => {
+      dispatch({ type: 'UPDATE_ANALYSIS', payload: analysis });
+      // Generate visualizations
+      generateVisualizations(analysis);
+    }
+  };
+  
+  return (
+    <VisualizationContext.Provider value={{ state, actions }}>
+      {children}
+    </VisualizationContext.Provider>
+  );
+};
+```
+
+#### Reusable Visualization Components
+```typescript
+// apps/web/src/components/visualizations/DependencyGraph.tsx
+import React, { useEffect, useRef } from 'react';
+import * as d3 from 'd3';
+
+interface DependencyGraphProps {
+  data: DependencyData;
+  width?: number;
+  height?: number;
+  onNodeClick?: (node: DependencyNode) => void;
+}
+
+export const DependencyGraph: React.FC<DependencyGraphProps> = ({
+  data,
+  width = 800,
+  height = 600,
+  onNodeClick
+}) => {
+  const svgRef = useRef<SVGSVGElement>(null);
+  
+  useEffect(() => {
+    if (!svgRef.current || !data.nodes.length) return;
+    
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove(); // Clear previous render
+    
+    // Create force simulation
+    const simulation = d3.forceSimulation(data.nodes)
+      .force('link', d3.forceLink(data.links).id(d => d.id).distance(100))
+      .force('charge', d3.forceManyBody().strength(-300))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide().radius(20));
+    
+    // Create links
+    const link = svg.append('g')
+      .selectAll('line')
+      .data(data.links)
+      .join('line')
+      .attr('class', 'dependency-link')
+      .attr('stroke', '#999')
+      .attr('stroke-opacity', 0.6)
+      .attr('stroke-width', d => Math.sqrt(d.weight || 1));
+    
+    // Create nodes
+    const node = svg.append('g')
+      .selectAll('circle')
+      .data(data.nodes)
+      .join('circle')
+      .attr('class', 'dependency-node')
+      .attr('r', d => 5 + (d.importance || 0) * 10)
+      .attr('fill', d => getNodeColor(d.type))
+      .call(d3.drag()
+        .on('start', dragStarted)
+        .on('drag', dragged)
+        .on('end', dragEnded))
+      .on('click', (event, d) => {
+        onNodeClick?.(d);
+      });
+    
+    // Add labels
+    const label = svg.append('g')
+      .selectAll('text')
+      .data(data.nodes)
+      .join('text')
+      .attr('class', 'node-label')
+      .text(d => d.name)
+      .attr('font-size', '12px')
+      .attr('dx', 15)
+      .attr('dy', 4);
+    
+    // Update positions on simulation tick
+    simulation.on('tick', () => {
+      link
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y);
+      
+      node
+        .attr('cx', d => d.x)
+        .attr('cy', d => d.y);
+      
+      label
+        .attr('x', d => d.x)
+        .attr('y', d => d.y);
+    });
+    
+    function dragStarted(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+    
+    function dragged(event, d) {
+      d.fx = event.x;
+      d.fy = event.y;
+    }
+    
+    function dragEnded(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
+    }
+    
+  }, [data, width, height]);
+  
+  return (
+    <div className="dependency-graph">
+      <svg ref={svgRef} width={width} height={height} />
+    </div>
+  );
+};
+```
+
+### Day 17-18: Real-time Data Synchronization
+**Focus**: WebSocket integration for live updates
+
+#### Real-time Updates Implementation
+```typescript
+// apps/web/src/hooks/useRealtimeAnalysis.ts
+import { useEffect, useState } from 'react';
+import { io, Socket } from 'socket.io-client';
+
+export function useRealtimeAnalysis(repositoryId: string) {
+  const [socket, setSocket] = useState<Socket | null>(null);
+  const [analysis, setAnalysis] = useState<Analysis | null>(null);
+  const [isConnected, setIsConnected] = useState(false);
+  
+  useEffect(() => {
+    const newSocket = io(process.env.NEXT_PUBLIC_WS_URL, {
+      auth: {
+        token: localStorage.getItem('auth_token')
       }
-    }
+    });
     
-    buildContextualPrompt(question: string, project: Project, context: ProjectContext): string {
-      return `
-        You are an expert software architect helping a developer with their project.
-        
-        Project Details:
-        - Name: ${project.name}
-        - Template: ${project.template.name}
-        - Complexity: ${project.template.complexity}
-        - Architecture: ${JSON.stringify(project.architecture)}
-        
-        Developer's Question: "${question}"
-        
-        Please provide a helpful, specific answer that:
-        1. Addresses the specific question in context of their project
-        2. Explains the reasoning behind architectural decisions
-        3. Suggests best practices and alternatives
-        4. Considers the project's complexity level
-        5. Provides actionable next steps
-        
-        Keep the response practical and focused on their specific situation.
-      `
-    }
-  }
-```
-
----
-
-### Week 4: Polish & Launch
-
-#### **Day 22-25: Export Tools & Testing**
-```typescript
-// Project Export System
-□ Implement comprehensive export functionality
-  // lib/projectExporter.ts
-  export class ProjectExporter {
-    async exportToZip(project: Project): Promise<Buffer> {
-      const zip = new JSZip()
-      
-      // Generate project files
-      const files = await this.generateProjectFiles(project)
-      files.forEach(file => {
-        zip.file(file.path, file.content)
-      })
-      
-      // Add documentation
-      const readme = await this.generateReadme(project)
-      const architecture = await this.generateArchitectureDoc(project)
-      
-      zip.file('README.md', readme)
-      zip.file('ARCHITECTURE.md', architecture)
-      
-      return zip.generateAsync({ type: 'nodebuffer' })
-    }
+    newSocket.on('connect', () => {
+      setIsConnected(true);
+      newSocket.emit('subscribe', { repositoryId });
+    });
     
-    async createGitHubRepository(project: Project, token: string): Promise<GitHubRepo> {
-      const octokit = new Octokit({ auth: token })
-      
-      // Create repository
-      const repo = await octokit.rest.repos.createForAuthenticatedUser({
-        name: project.name,
-        description: project.description,
-        private: false,
-        auto_init: false
-      })
-      
-      // Upload files
-      const files = await this.generateProjectFiles(project)
-      for (const file of files) {
-        await octokit.rest.repos.createOrUpdateFileContents({
-          owner: repo.data.owner.login,
-          repo: repo.data.name,
-          path: file.path,
-          message: `Initial commit: ${file.path}`,
-          content: Buffer.from(file.content).toString('base64')
-        })
+    newSocket.on('disconnect', () => {
+      setIsConnected(false);
+    });
+    
+    newSocket.on('analysis_started', (data: { repositoryId: string, commitSha: string }) => {
+      if (data.repositoryId === repositoryId) {
+        setAnalysis(prev => ({ ...prev, status: 'PROCESSING' }));
       }
-      
-      return repo.data
-    }
-  }
-
-□ Build comprehensive testing suite
-  // tests/integration/project-creation.test.ts
-  describe('Project Creation Flow', () => {
-    test('should create project from template', async () => {
-      const template = await createTestTemplate()
-      const config = generateTestConfig()
-      
-      const project = await projectGenerator.generateProject(template, config)
-      
-      expect(project.structure).toBeDefined()
-      expect(project.files.length).toBeGreaterThan(0)
-      expect(project.documentation).toContain('README.md')
-    })
+    });
     
-    test('should generate valid Mermaid diagrams', async () => {
-      const project = await createTestProject()
-      const diagram = renderer.generateSystemDiagram(project.configuration)
-      
-      expect(diagram).toContain('graph TB')
-      expect(diagram).toMatch(/\w+\[.*\]/)
-      expect(diagram).toMatch(/\w+ --> \w+/)
-    })
-  })
-```
-
-#### **Day 26-28: Launch Preparation**
-```typescript
-// Performance Optimization
-□ Implement performance optimizations
-  // lib/performance.ts
-  export const performanceOptimizations = {
-    // Code splitting for large components
-    lazyComponents: {
-      DiagramViewer: lazy(() => import('@/components/DiagramViewer')),
-      TemplateCustomizer: lazy(() => import('@/components/TemplateCustomizer')),
-      ProjectExporter: lazy(() => import('@/components/ProjectExporter'))
-    },
+    newSocket.on('analysis_completed', (data: Analysis) => {
+      if (data.repositoryId === repositoryId) {
+        setAnalysis(data);
+      }
+    });
     
-    // Memoization for expensive computations
-    memoizedFunctions: {
-      generateDiagram: memo(renderer.generateSystemDiagram),
-      processTemplate: memo(projectGenerator.processTemplate),
-      calculateComplexity: memo(complexityAnalyzer.analyze)
-    },
+    newSocket.on('insight_generated', (insight: ArchitecturalInsight) => {
+      // Update UI with new insight
+      setAnalysis(prev => prev ? {
+        ...prev,
+        insights: [...prev.insights, insight]
+      } : null);
+    });
     
-    // Caching strategies
-    cacheConfig: {
-      templates: { ttl: 3600, tags: ['templates'] },
-      projects: { ttl: 900, tags: ['projects'] },
-      diagrams: { ttl: 1800, tags: ['diagrams'] }
-    }
-  }
-
-□ Configure monitoring and analytics
-  // lib/monitoring.ts
-  export const monitoringConfig = {
-    sentry: {
-      dsn: process.env.SENTRY_DSN,
-      environment: process.env.NODE_ENV,
-      tracesSampleRate: 0.1,
-      profilesSampleRate: 0.1
-    },
+    setSocket(newSocket);
     
-    analytics: {
-      events: [
-        'project_created',
-        'template_used',
-        'diagram_generated',
-        'ai_question_asked',
-        'project_exported'
-      ],
-      
-      customMetrics: [
-        'template_completion_rate',
-        'ai_response_time',
-        'diagram_generation_success',
-        'export_success_rate'
-      ]
-    }
-  }
-```
-
----
-
-## Pre-Launch Checklist
-
-### Technical Readiness
-```typescript
-interface TechnicalReadiness {
-  performance: {
-    □ 'Page load times < 2 seconds'
-    □ 'Diagram rendering < 5 seconds'
-    □ 'AI responses < 10 seconds'
-    □ 'Bundle size < 500KB gzipped'
-  }
+    return () => {
+      newSocket.close();
+    };
+  }, [repositoryId]);
   
-  reliability: {
-    □ 'Error rate < 0.1%'
-    □ 'Database connection pooling'
-    □ 'API rate limiting implemented'
-    □ 'Graceful error handling'
-  }
-  
-  security: {
-    □ 'Authentication flow tested'
-    □ 'API endpoints secured'
-    □ 'Input validation on all forms'
-    □ 'XSS protection enabled'
-  }
-  
-  scalability: {
-    □ 'Redis caching layer active'
-    □ 'Database indexes optimized'
-    □ 'CDN configured for assets'
-    □ 'Auto-scaling enabled'
-  }
+  return {
+    analysis,
+    isConnected,
+    socket
+  };
 }
 ```
 
-### Content Readiness
+### Day 19-20: Dashboard Layout & Performance
+**Focus**: Optimized dashboard with efficient rendering
+
+#### Performance-Optimized Dashboard
 ```typescript
-interface ContentReadiness {
-  templates: {
-    □ '5 high-quality templates tested'
-    □ 'Template documentation complete'
-    □ 'Learning objectives defined'
-    □ 'Complexity levels accurate'
+// apps/web/src/pages/dashboard/[repositoryId].tsx
+import React, { useMemo } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import { Suspense, lazy } from 'react';
+
+// Lazy load heavy visualization components
+const DependencyGraph = lazy(() => import('@/components/visualizations/DependencyGraph'));
+const ComplexityHeatmap = lazy(() => import('@/components/visualizations/ComplexityHeatmap'));
+const ArchitectureOverview = lazy(() => import('@/components/visualizations/ArchitectureOverview'));
+
+export default function RepositoryDashboard({ repositoryId }: { repositoryId: string }) {
+  const { data: repository, isLoading } = useQuery({
+    queryKey: ['repository', repositoryId],
+    queryFn: () => fetchRepository(repositoryId),
+    staleTime: 5 * 60 * 1000 // 5 minutes
+  });
+  
+  const { data: analysis } = useQuery({
+    queryKey: ['analysis', repositoryId],
+    queryFn: () => fetchLatestAnalysis(repositoryId),
+    refetchInterval: 30000, // Refetch every 30s
+    enabled: !!repository
+  });
+  
+  // Memoize expensive calculations
+  const dashboardData = useMemo(() => {
+    if (!analysis) return null;
+    
+    return {
+      healthScore: calculateHealthScore(analysis),
+      criticalIssues: analysis.insights.filter(i => i.priority === 'HIGH'),
+      recentChanges: analysis.recentChanges.slice(0, 10),
+      dependencies: processDependencyData(analysis.dependencies)
+    };
+  }, [analysis]);
+  
+  if (isLoading) {
+    return <DashboardSkeleton />;
   }
   
-  documentation: {
-    □ 'User onboarding guide'
-    □ 'Architecture pattern explanations'
-    □ 'FAQ section complete'
-    □ 'Video tutorials recorded'
-  }
-  
-  examples: {
-    □ 'Sample projects for each template'
-    □ 'Before/after architecture comparisons'
-    □ 'Real-world use case studies'
-    □ 'Community showcase ready'
-  }
-}
-```
-
-### UX Readiness
-```typescript
-interface UXReadiness {
-  usability: {
-    □ 'Mobile responsiveness tested'
-    □ 'Accessibility compliance (WCAG 2.1)'
-    □ 'User flow testing completed'
-    □ 'Loading states implemented'
-  }
-  
-  onboarding: {
-    □ 'New user tutorial flow'
-    □ 'Progressive disclosure of features'
-    □ 'Clear call-to-action buttons'
-    □ 'Success state celebrations'
-  }
-  
-  feedback: {
-    □ 'User feedback collection system'
-    □ 'Error reporting mechanism'
-    □ 'Feature request tracking'
-    □ 'Usage analytics dashboard'
-  }
-}
-```
-
-### Infrastructure Readiness
-```typescript
-interface InfrastructureReadiness {
-  deployment: {
-    □ 'Production environment configured'
-    □ 'Database migrations tested'
-    □ 'Environment variables secured'
-    □ 'SSL certificates active'
-  }
-  
-  monitoring: {
-    □ 'Uptime monitoring alerts'
-    □ 'Performance metric dashboards'
-    □ 'Error tracking configured'
-    □ 'Backup systems tested'
-  }
-  
-  compliance: {
-    □ 'Privacy policy published'
-    □ 'Terms of service finalized'
-    □ 'GDPR compliance verified'
-    □ 'Data retention policies set'
-  }
-}
-```
-
----
-
-## 🗺️ Full Platform Development Roadmap
-
-```mermaid
-graph TB
-    subgraph "Phase 1: MVP Foundation (Month 1-3)"
-        A1[Core Templates] --> A2[Basic AI Integration]
-        A2 --> A3[Visual Diagrams]
-        A3 --> A4[User Authentication]
-        A4 --> A5[Project Management]
-        
-        A5 --> M1[MVP Launch<br/>500 Users<br/>1000 Projects]
-    end
-    
-    subgraph "Phase 2: Professional Platform (Month 4-9)"
-        M1 --> B1[Advanced Templates]
-        B1 --> B2[Team Collaboration]
-        B2 --> B3[Version Control Integration]
-        B3 --> B4[Custom AI Agents]
-        B4 --> B5[Enterprise Features]
-        
-        B5 --> M2[Professional Launch<br/>5000 Users<br/>$50K MRR]
-    end
-    
-    subgraph "Phase 3: Ecosystem Platform (Month 10-18)"
-        M2 --> C1[Template Marketplace]
-        C1 --> C2[Plugin Architecture]
-        C2 --> C3[Developer API]
-        C3 --> C4[Certification Program]
-        C4 --> C5[Enterprise Integrations]
-        
-        C5 --> M3[Ecosystem Launch<br/>25000 Users<br/>$250K MRR]
-    end
-    
-    style M1 fill:#e1f5fe
-    style M2 fill:#f3e5f5
-    style M3 fill:#e8f5e8
-```
-
-### Phase 1: MVP Foundation (Months 1-3)
-
-#### Success Metrics
-| Metric | Target | Timeline |
-|--------|---------|----------|
-| **User Registrations** | 500+ | Month 1 |
-| **Active Projects** | 1,000+ | Month 2 |
-| **Template Usage** | 70% completion rate | Month 3 |
-| **AI Interactions** | 5,000+ queries | Month 3 |
-| **User Retention** | 40% 7-day retention | Month 3 |
-
-#### Core Features
-- ✅ 5 high-quality project templates
-- ✅ Interactive diagram generation
-- ✅ AI-powered architectural guidance
-- ✅ Project export functionality
-- ✅ Basic user dashboard
-
-### Phase 2: Professional Platform (Months 4-9)
-
-#### Success Metrics
-| Metric | Target | Timeline |
-|--------|---------|----------|
-| **Paid Users** | 400+ subscribers | Month 6 |
-| **Monthly Revenue** | $50,000 MRR | Month 9 |
-| **Team Accounts** | 50+ teams | Month 8 |
-| **API Usage** | 100K+ requests/month | Month 9 |
-| **Template Library** | 25+ templates | Month 9 |
-
-#### Advanced Features
-- 🎯 Team collaboration tools
-- 🎯 Advanced AI agents for specialized domains
-- 🎯 Integration with GitHub, GitLab, Bitbucket
-- 🎯 Custom template creation tools
-- 🎯 Enterprise SSO and security features
-
-### Phase 3: Ecosystem Platform (Months 10-18)
-
-#### Success Metrics
-| Metric | Target | Timeline |
-|--------|---------|----------|
-| **Platform Users** | 25,000+ | Month 15 |
-| **Marketplace Revenue** | $100,000+ | Month 18 |
-| **Third-party Integrations** | 10+ partners | Month 16 |
-| **Certified Developers** | 1,000+ | Month 18 |
-| **Enterprise Clients** | 25+ | Month 18 |
-
-#### Ecosystem Features
-- 🚀 Community-driven template marketplace
-- 🚀 Plugin architecture for third-party tools
-- 🚀 Developer API and SDK
-- 🚀 Professional certification program
-- 🚀 Enterprise integration platform
-
----
-
-## 🏗️ System Architecture Evolution
-
-### MVP Architecture (Phase 1)
-```mermaid
-graph TB
-    subgraph "Client Layer"
-        WEB[Web App<br/>Next.js 14]
-        MOBILE[Mobile Web<br/>Responsive]
-    end
-    
-    subgraph "API Layer"
-        API[tRPC API<br/>Type-safe Routes]
-        AUTH[NextAuth.js<br/>GitHub OAuth]
-    end
-    
-    subgraph "Application Layer"
-        TEMPLATES[Template Engine<br/>Project Generation]
-        DIAGRAMS[Diagram Renderer<br/>Mermaid.js]
-        AI[AI Service<br/>Claude API]
-    end
-    
-    subgraph "Data Layer"
-        DB[(PostgreSQL<br/>User & Project Data)]
-        CACHE[(Redis<br/>Session & AI Cache)]
-        FILES[File Storage<br/>Cloudflare R2]
-    end
-    
-    subgraph "External Services"
-        CLAUDE[Claude API<br/>AI Responses]
-        GITHUB[GitHub API<br/>Repository Creation]
-    end
-    
-    WEB --> API
-    MOBILE --> API
-    API --> AUTH
-    API --> TEMPLATES
-    API --> DIAGRAMS
-    API --> AI
-    
-    TEMPLATES --> DB
-    DIAGRAMS --> CACHE
-    AI --> CLAUDE
-    AI --> CACHE
-    
-    TEMPLATES --> FILES
-    API --> GITHUB
-    
-    style WEB fill:#e1f5fe
-    style API fill:#f3e5f5
-    style DB fill:#e8f5e8
-```
-
-### Scalable Architecture (Phase 2)
-```mermaid
-graph TB
-    subgraph "Client Applications"
-        WEB[Web App]
-        MOBILE[Mobile App]
-        API_CLIENTS[API Clients]
-    end
-    
-    subgraph "API Gateway"
-        GATEWAY[Kong Gateway<br/>Rate Limiting & Auth]
-        LB[Load Balancer<br/>Traffic Distribution]
-    end
-    
-    subgraph "Microservices"
-        USER_SVC[User Service<br/>Authentication & Profiles]
-        PROJECT_SVC[Project Service<br/>Template & Generation]
-        AI_SVC[AI Service<br/>Claude Integration]
-        COLLAB_SVC[Collaboration Service<br/>Team Features]
-        EXPORT_SVC[Export Service<br/>File Generation]
-    end
-    
-    subgraph "Data Stores"
-        USER_DB[(User Database<br/>PostgreSQL)]
-        PROJECT_DB[(Project Database<br/>PostgreSQL)]
-        CACHE_CLUSTER[(Redis Cluster<br/>Distributed Cache)]
-        SEARCH[Search Engine<br/>Elasticsearch]
-        FILES[Object Storage<br/>S3 Compatible]
-    end
-    
-    subgraph "Message Queue"
-        QUEUE[Message Queue<br/>RabbitMQ]
-        WORKERS[Background Workers<br/>Export & AI Processing]
-    end
-    
-    subgraph "Monitoring"
-        METRICS[Metrics Collection<br/>Prometheus]
-        LOGS[Log Aggregation<br/>ELK Stack]
-        ALERTS[Alert Manager<br/>PagerDuty]
-    end
-    
-    WEB --> GATEWAY
-    MOBILE --> GATEWAY
-    API_CLIENTS --> GATEWAY
-    
-    GATEWAY --> LB
-    LB --> USER_SVC
-    LB --> PROJECT_SVC
-    LB --> AI_SVC
-    LB --> COLLAB_SVC
-    LB --> EXPORT_SVC
-    
-    USER_SVC --> USER_DB
-    PROJECT_SVC --> PROJECT_DB
-    AI_SVC --> CACHE_CLUSTER
-    COLLAB_SVC --> CACHE_CLUSTER
-    EXPORT_SVC --> FILES
-    
-    PROJECT_SVC --> QUEUE
-    AI_SVC --> QUEUE
-    QUEUE --> WORKERS
-    
-    style GATEWAY fill:#ff9800
-    style LB fill:#ff9800
-    style QUEUE fill:#9c27b0
-```
-
-This enhanced MVP combines visual learning, smart AI integration, and practical architecture guidance in a package that costs less than $40 to validate. Focus on creating an experience that makes developers say "I wish I had this when I was learning architecture!" 🚀
+  return (
+    <div className="dashboard-grid">
+      {/* Health

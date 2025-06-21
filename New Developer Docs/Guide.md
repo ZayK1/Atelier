@@ -1,78 +1,89 @@
-# Atelier: Intelligent Project Architecture Platform
-## *Build projects that teach architecture, not just code*
+# Atelier: Intelligent Architectural Intelligence Platform
+## *Connect your codebase, elevate your architecture*
 
 ---
 
 ## 🏛️ Why "Atelier"
 
-The name "Atelier" comes from the French word for workshop—a place where artisans learn their craft through hands-on practice under expert guidance. Just as Renaissance painters learned by working alongside masters in their ateliers, modern developers need a space to learn architectural thinking through practical application.
+The name "Atelier" comes from the French word for workshop—a place where artisans learn their craft through hands-on practice under expert guidance. Just as Renaissance painters learned by working alongside masters in their ateliers, modern developers need continuous architectural mentorship throughout their development journey.
 
-**The Workshop Metaphor:**
-- **Traditional Coding Tutorials** = Art classes that only teach brush techniques
-- **Atelier Platform** = Master's workshop where you learn to compose entire masterpieces
+**The Digital Workshop Metaphor:**
+- **Traditional Development** = Working in isolation without architectural guidance
+- **Atelier Platform** = Master architect constantly reviewing your work, providing insights, and maintaining living documentation
 
-In our digital atelier, every project becomes a learning opportunity, every architectural decision is documented and explained, and every developer grows from code writer to system architect.
+In our digital atelier, every commit becomes a learning opportunity, every architectural decision is analyzed and documented, and every developer grows from code writer to system architect through continuous, contextual guidance.
 
 ---
 
 ## 📋 Executive Summary
 
-**Atelier** is an intelligent project scaffolding platform that transforms how developers learn software architecture. Instead of generating code, we generate **architecturally-sound project foundations** with built-in educational guidance.
+**Atelier** is a GitHub-integrated architectural intelligence platform that provides continuous guidance, automated documentation, and rich visualizations for your existing codebase. Rather than generating templates, we analyze your real projects to provide ongoing architectural mentorship and maintain living documentation as your code evolves.
 
 ### What We Do
-- **Intelligent Scaffolding**: Creates customized project templates based on requirements, not just boilerplate
-- **Living Documentation**: Automatically generates Architecture Decision Records (ADRs) and system guides
-- **Educational Integration**: Explains *why* architectural choices were made, not just *what* was implemented
-- **Continuous Learning**: Provides ongoing guidance as projects evolve and grow
+- **Repository Integration**: Connects directly to your GitHub repositories for real-time codebase analysis
+- **Continuous Architectural Guidance**: AI-powered insights that evolve with your project
+- **Living Documentation**: Automatically generates and maintains Architecture Decision Records (ADRs) and system visualizations
+- **Rich Visualizations**: Dynamic architecture diagrams, dependency maps, and complexity dashboards
+- **Template Scaffolding**: Beginner-friendly project starters for those just beginning their architectural journey
+
+### The AI Development Paradox We Solve
+
+**Market Reality:**
+As AI development tools accelerate project creation, industry leaders are raising the bar for architectural competency:
+- **Google CEO Sundar Pichai**: "The future belongs to developers who understand systems, not just syntax"
+- **Microsoft CEO Satya Nadella**: "AI will make coding faster, but architectural thinking more critical"
+- **OpenAI CEO Sam Altman**: "Every developer needs to think like a software architect"
+
+**The Paradox:**
+- ⚡ **AI speeds up coding** → More projects created faster
+- 📉 **Reduced learning time** → Less architectural understanding
+- 📈 **Higher industry standards** → Recruiters expect architectural competency
+- ❌ **Verification gap** → No way to prove real-world architectural skills
 
 ### Problems We Solve
 | Current Reality | Atelier Solution |
 |----------------|------------------|
-| Tutorial hell - isolated code snippets | Holistic system design education |
-| Portfolio projects that look identical | Unique, well-architected demonstrations |
-| No guidance on architectural decisions | Built-in ADR templates and explanations |
-| Gap between junior coding and senior architecture | Structured learning path with hands-on practice |
-
-### Tangible Benefits
-- **For Developers**: Learn architecture through practice, build impressive portfolios, accelerate career growth
-- **For Recruiters**: Easily assess architectural thinking beyond coding ability
-- **For Educators**: Structured curriculum for teaching software design patterns
-- **For Industry**: Bridge the gap between CS education and production-ready skills
+| Fast AI-generated code with no architectural learning | Continuous guidance that explains architectural decisions |
+| Documentation that becomes outdated immediately | Living documentation that updates with your code |
+| No visibility into project architectural health | Rich visualizations and automated complexity analysis |
+| Portfolio projects that don't demonstrate architectural thinking | Verified competency through analyzed real-world projects |
+| Rising recruitment standards with no learning path | Structured architectural mentorship integrated into workflow |
 
 ---
 
 ## 🎯 Background & Motivation
 
-### The Architecture Skills Gap
+### The Architecture Skills Crisis
 
-**Market Reality:**
-- 📊 **73%** of software projects fail due to poor architectural decisions (Standish Group, 2024)
-- 💰 **$2.84 trillion** in technical debt exists across enterprise software (Stripe Developer Survey, 2024)
-- 🎓 **89%** of CS graduates feel unprepared for senior-level architectural responsibilities
-- 📈 **340%** increase in "Software Architect" job postings since 2020
+**Industry Transformation Statistics:**
+- 📊 **89%** of CS graduates feel unprepared for architectural responsibilities (Stack Overflow 2024)
+- 💰 **$2.84 trillion** in technical debt exists due to poor architectural decisions (Stripe Survey 2024)
+- 🚀 **340%** increase in "Software Architect" job postings since AI tools became mainstream
+- 🎯 **73%** of recruiters now evaluate architectural thinking beyond coding ability
 
-### Current Educational Landscape Problems
+### The AI Development Paradox
 
-**Tutorial Hell Phenomenon:**
-- Developers complete hundreds of coding tutorials
-- Projects look identical across portfolios
-- No understanding of *why* certain patterns were chosen
-- Missing connection between code and system design
+**Accelerated Development, Reduced Learning:**
+AI tools like GitHub Copilot, GPT-4, and Claude have transformed development speed, but created an unexpected challenge:
 
-**The Side Project Graveyard:**
-- **67%** of developer side projects are abandoned within 3 months
-- **45%** cite "didn't know how to structure the project" as primary reason
-- Most projects never progress beyond initial setup
+- **Faster Project Creation**: Developers can scaffold applications in minutes
+- **Reduced Learning Time**: Less time spent understanding why architectural decisions were made
+- **Higher Industry Expectations**: As basic coding becomes commoditized, architectural thinking becomes the differentiator
+- **Verification Gap**: Unlike LeetCode for algorithms, no standardized way to demonstrate real-world architectural competency
 
-### Atelier's Differentiated Approach
+### Current Educational Landscape Failures
 
-| Traditional Approach | Atelier Method |
-|---------------------|----------------|
-| "Here's how to write React code" | "Here's why we chose React for this specific use case" |
-| Generic project templates | Customized architecture based on requirements |
-| No documentation standards | Built-in ADR generation and maintenance |
-| Code-first thinking | Architecture-first methodology |
-| Individual learning | Community-driven knowledge sharing |
+**The Repository Analysis Gap:**
+- **67%** of developer repositories show no architectural documentation
+- **45%** of projects have no clear architectural patterns
+- **78%** of side projects are abandoned when they become complex
+- **89%** of developers report learning architecture "on the job" rather than systematically
+
+**Portfolio Problem:**
+- Projects look similar due to tutorial-following
+- No evidence of architectural decision-making process
+- Missing documentation of trade-offs and considerations
+- Recruiters can't assess architectural thinking from code alone
 
 ---
 
@@ -83,119 +94,223 @@ In our digital atelier, every project becomes a learning opportunity, every arch
 ```mermaid
 mindmap
   root((Atelier Core))
-    Project Companion
-      Living Architecture Diagrams
-      Continuous Guidance
-      Implementation Tracking
-    Smart Templates
-      Domain-Specific Starters
-      Best Practice Integration
-      Scalable Foundations
-    Feature Guidance
-      Implementation Roadmaps
-      Scalability Considerations
-      Code Structure Advice
-    Architectural Learning
-      Practical Education
-      Real-World Application
-      Progressive Complexity
+    Repository Integration
+      GitHub API Connection
+      Real-time Analysis
+      Webhook Monitoring
+      Multi-repo Support
+    Continuous Guidance
+      Architectural Insights
+      Pattern Recognition
+      Best Practice Suggestions
+      Technical Debt Tracking
+    Living Documentation
+      Auto-generated ADRs
+      Dynamic Diagrams
+      API Documentation
+      Onboarding Guides
+    Rich Visualizations
+      Architecture Diagrams
+      Dependency Maps
+      Complexity Heatmaps
+      Evolution Timeline
 ```
 
 </div>
 
 ### Long-term Mission
-*"Empower every developer to think and act like a software architect by providing guided explanations, living documentation practices, and educational project scaffolding that emphasizes architectural decision-making over code generation."*
+*"Transform every developer into an architectural thinker by providing continuous, AI-powered guidance that analyzes real codebases, maintains living documentation, and creates rich visualizations that demonstrate genuine architectural competency."*
 
 ### Five Core Technical Goals
 
-#### 1. 🏗️ Template-Driven Project Genesis
-- **Objective**: Replace generic boilerplate with intelligent, requirement-driven scaffolding
-- **Approach**: Interactive questionnaires that generate customized project structures
-- **Outcome**: Every project starts with solid architectural foundations
+#### 1. 🔗 Repository Connection & Analysis Engine (40% Priority)
+- **Objective**: Seamlessly integrate with existing GitHub repositories for real-time analysis
+- **Approach**: Webhook-driven monitoring, comprehensive codebase parsing, and pattern recognition
+- **Outcome**: Every code change triggers architectural analysis and guidance
+- **Visualization Focus**: Automated dependency graphs, architecture evolution timelines
 
-#### 2. 📚 Integrated Learning Experience
-- **Objective**: Embed architectural education directly into the development workflow
-- **Approach**: Contextual explanations, pattern libraries, and decision guides
-- **Outcome**: Developers learn architecture principles through practical application
+#### 2. 🧠 Continuous Architectural Guidance System (25% Priority)
+- **Objective**: Provide ongoing, contextual architectural mentorship throughout development
+- **Approach**: AI-powered analysis of code changes with historical context and best practice recommendations
+- **Outcome**: Developers receive architectural insights when they need them most
+- **Learning Integration**: Just-in-time architectural education based on actual code decisions
 
-#### 3. 📝 Living Documentation Culture
-- **Objective**: Make architectural documentation a natural part of development
-- **Approach**: Automated ADR generation, guided templates, and maintenance prompts
-- **Outcome**: Every project maintains up-to-date architectural records
+#### 3. 📊 Living Documentation & Rich Visualizations (25% Priority)
+- **Objective**: Automatically generate and maintain comprehensive architectural documentation
+- **Approach**: Dynamic ADR creation, interactive diagram generation, and real-time documentation updates
+- **Outcome**: Documentation that evolves with the codebase and provides visual insights
+- **Visualization Suite**: Mermaid diagrams, dependency maps, complexity heatmaps, architecture evolution dashboards
 
-#### 4. 🤝 Community Knowledge Sharing
-- **Objective**: Create a platform where architectural expertise is recognized and shared
-- **Approach**: Template marketplace, project showcases, and peer learning
-- **Outcome**: Collaborative improvement of architectural practices across the community
+#### 4. 🏗️ Template Scaffolding for Beginners (10% Priority)
+- **Objective**: Provide architecturally-sound starting points for new developers
+- **Approach**: Curated templates that integrate with guidance system from day one
+- **Outcome**: Beginners start with solid foundations and immediate access to architectural mentorship
+- **Integration**: Templates immediately connect to continuous guidance system
 
-#### 5. 📊 Ongoing Architectural Health Monitoring
-- **Objective**: Provide continuous guidance for maintaining architectural integrity
-- **Approach**: Project health checks, technical debt tracking, and improvement suggestions
-- **Outcome**: Projects maintain architectural quality throughout their lifecycle
+#### 5. 🎓 Architectural Competency Verification
+- **Objective**: Create verifiable proof of architectural thinking and decision-making
+- **Approach**: Project analysis portfolios, architectural decision tracking, and competency scoring
+- **Outcome**: Developers can demonstrate real-world architectural skills to recruiters
 
 ---
 
 ## 🗺️ Development Roadmap
 
-### Phase 1: Foundation & Core MVP *(Months 1-3)*
-**Focus**: Build the essential platform infrastructure and core features
+### Phase 1: Repository Integration Foundation *(Months 1-3)*
+**Focus**: Build core GitHub integration and codebase analysis engine
 
 **Key Deliverables:**
-- ✅ User authentication and project management system
-- ✅ Interactive questionnaire engine
-- ✅ Template generation and customization system
-- ✅ GitHub integration for repository creation
-- ✅ Initial template library (5 core templates)
+- ✅ GitHub OAuth integration and repository access
+- ✅ Webhook system for real-time code change monitoring
+- ✅ Codebase analysis engine (dependency mapping, pattern recognition)
+- ✅ Basic architectural insight generation
+- ✅ User dashboard for repository management
 
 **Success Criteria:**
-- 500+ registered users
-- 1,000+ projects generated
-- 70%+ project completion rate
+- 500+ repositories connected
+- 1,000+ architectural insights generated
+- 85%+ accuracy in pattern recognition
 
-### Phase 2: Educational Integration *(Months 4-6)*
-**Focus**: Enhance learning experience and documentation features
+### Phase 2: Continuous Guidance & Visualization *(Months 4-6)*
+**Focus**: Implement AI-powered guidance system and rich visualizations
 
 **Key Deliverables:**
-- ✅ Comprehensive educational content system
-- ✅ ADR generation and management tools
-- ✅ Interactive architecture pattern library
+- ✅ Real-time architectural guidance notifications
+- ✅ Interactive architecture diagram generation (Mermaid integration)
+- ✅ Dependency visualization and complexity analysis
+- ✅ Automated ADR generation and maintenance
 - ✅ Project health monitoring dashboard
-- ✅ Community feedback and rating system
 
 **Success Criteria:**
-- 2,000+ active users
-- 80%+ of users create ADRs
-- 4.5+ average user satisfaction rating
+- 2,000+ active connected repositories
+- 80%+ of users act on architectural guidance
+- 4.5+ average user satisfaction with visualizations
 
-### Phase 3: Community & Marketplace *(Months 7-9)*
-**Focus**: Build community features and template ecosystem
+### Phase 3: Living Documentation & Learning Integration *(Months 7-9)*
+**Focus**: Advanced documentation automation and educational content
 
 **Key Deliverables:**
-- ✅ Template marketplace with creator monetization
-- ✅ Project showcase and portfolio features
-- ✅ Peer review and mentorship matching
-- ✅ Achievement and certification system
-- ✅ Advanced template customization tools
+- ✅ Living documentation system with automatic updates
+- ✅ Contextual learning content delivery
+- ✅ Architectural decision tracking and history
+- ✅ Team collaboration features for shared repositories
+- ✅ Template scaffolding system for beginners
 
 **Success Criteria:**
-- 5,000+ registered users
-- 100+ community-contributed templates
-- 50+ verified mentors active on platform
+- 5,000+ repositories with active documentation
+- 90%+ documentation accuracy and relevance
+- 60%+ improvement in user architectural assessments
 
-### Phase 4: Enterprise & Scale *(Months 10-12)*
-**Focus**: Prepare for enterprise adoption and platform scaling
+### Phase 4: Verification & Enterprise Scale *(Months 10-12)*
+**Focus**: Competency verification system and enterprise features
 
 **Key Deliverables:**
-- ✅ Enterprise team collaboration features
-- ✅ Advanced analytics and reporting dashboard
-- ✅ API for third-party integrations
-- ✅ Multi-language and internationalization support
-- ✅ Mobile application (React Native)
+- ✅ Architectural competency scoring and certification
+- ✅ Portfolio generation for job applications
+- ✅ Enterprise team analytics and reporting
+- ✅ Advanced visualization suite (3D architecture maps, interactive dashboards)
+- ✅ Multi-platform integration (GitLab, Bitbucket support)
 
 **Success Criteria:**
-- 10,000+ total users
+- 10,000+ total connected repositories
+- 100+ verified architectural portfolios
 - 5+ enterprise partnerships
-- 99.5% uptime and performance benchmarks
+
+---
+
+## 🤖 AI Agents & MCP Integration
+
+### Strategic Positioning
+After establishing core platform functionality and user adoption, Atelier will integrate advanced AI agents and Model Context Protocol (MCP) capabilities to transform from a repository analysis platform into an intelligent architectural mentorship ecosystem.
+
+### AI Agent Architecture
+
+```mermaid
+graph TD
+    A[Repository Event] --> B[Event Classification Agent]
+    B --> C{Event Type}
+    
+    C -->|Code Change| D[Architecture Analysis Agent]
+    C -->|Documentation Request| F[Documentation Agent]
+    C -->|Guidance Query| G[Mentorship Agent]
+    C -->|Visualization Request| H[Diagram Generation Agent]
+    
+    D --> I[MCP Server: Code Analysis]
+    F --> J[MCP Server: Documentation]
+    G --> K[MCP Server: Learning Analytics]
+    H --> L[MCP Server: Visualization]
+    
+    I --> M[Agent Coordination Layer]
+    J --> M
+    K --> M
+    L --> M
+    
+    M --> N[Response Synthesis]
+    N --> O[Repository Integration]
+    
+    P[Project Context Store] --> I
+    P --> J
+    P --> K
+    P --> L
+```
+
+### Core AI Capabilities
+
+#### 1. 🏗️ Repository Analysis Agent
+**Purpose**: Continuously analyze repository changes and provide architectural insights
+
+**Key Features:**
+- **Real-time Pattern Recognition**: Identifies architectural patterns and anti-patterns in commits
+- **Evolution Tracking**: Monitors how architectural decisions impact project complexity over time
+- **Dependency Analysis**: Tracks coupling, cohesion, and architectural boundary violations
+- **Technical Debt Detection**: Identifies architectural compromises and tracks their impact
+
+**MCP Integration:**
+- **Code Analysis Server**: Connects to static analysis tools, dependency analyzers, complexity metrics
+- **Pattern Recognition Server**: Accesses architectural pattern database and best practices
+- **Version Control Server**: Integrates deeply with Git history and branch analysis
+
+#### 2. 📊 Visualization Generation Agent
+**Purpose**: Create and maintain rich, interactive architectural visualizations
+
+**Key Features:**
+- **Dynamic Diagram Generation**: Creates Mermaid diagrams that update with code changes
+- **Dependency Mapping**: Visualizes module dependencies and architectural layers
+- **Complexity Heatmaps**: Shows code complexity and architectural hotspots
+- **Evolution Timelines**: Tracks architectural changes over project history
+
+**MCP Integration:**
+- **Diagram Generation Server**: Integrates with Mermaid, PlantUML, and custom visualization tools
+- **Data Visualization Server**: Connects to D3.js, Chart.js for interactive dashboards
+- **Export Server**: Generates diagrams for documentation, presentations, and portfolios
+
+#### 3. 📚 Continuous Learning Agent
+**Purpose**: Provide contextual architectural education based on actual code decisions
+
+**Key Features:**
+- **Just-in-Time Learning**: Delivers relevant architectural content when code patterns are detected
+- **Decision Context**: Explains why certain architectural choices are recommended for specific situations
+- **Skill Assessment**: Evaluates architectural growth through repository analysis
+- **Personalized Guidance**: Adapts recommendations based on developer experience and project type
+
+**MCP Integration:**
+- **Learning Content Server**: Accesses curated architectural education materials
+- **Assessment Server**: Tracks learning progress and competency development
+- **Recommendation Engine**: Suggests relevant patterns, articles, and best practices
+
+#### 4. 📝 Living Documentation Agent
+**Purpose**: Automatically maintain comprehensive architectural documentation
+
+**Key Features:**
+- **Automated ADR Generation**: Creates architectural decision records from code analysis
+- **Documentation Synchronization**: Keeps documentation in sync with code changes
+- **Onboarding Guide Generation**: Creates project setup and contribution guides
+- **API Documentation**: Maintains up-to-date API documentation and examples
+
+**MCP Integration:**
+- **Documentation Server**: Connects to GitHub Wiki, Notion, Confluence
+- **Template Engine**: Uses smart templates for consistent documentation formats
+- **Change Detection Server**: Monitors code changes that require documentation updates
 
 ---
 
@@ -208,43 +323,54 @@ graph TD
     A[Web Client<br/>Next.js + React] --> B[CDN/Edge<br/>Vercel Edge Network]
     B --> C[API Gateway<br/>Express.js + tRPC]
     
-    C --> D[Authentication Service<br/>Auth0 + JWT]
-    C --> E[Template Engine<br/>Custom Generation Logic]
-    C --> F[Documentation Generator<br/>ADR + Guide Creation]
-    C --> G[Project Management<br/>CRUD + Status Tracking]
+    C --> D[Authentication Service<br/>Auth0 + GitHub OAuth]
+    C --> E[Repository Integration<br/>GitHub API + Webhooks]
+    C --> F[Analysis Engine<br/>Code Pattern Recognition]
+    C --> G[Visualization Generator<br/>Mermaid + D3.js Integration]
+    C --> H[Documentation Engine<br/>ADR + Guide Generation]
     
-    E --> H[Template Repository<br/>File Storage + Metadata]
-    F --> I[GitHub API<br/>Repository Management]
-    G --> J[PostgreSQL<br/>Primary Data Store]
+    E --> I[Repository Monitor<br/>Real-time Change Detection]
+    F --> J[Pattern Database<br/>Architectural Knowledge Base]
+    G --> K[Diagram Cache<br/>Generated Visualization Storage]
+    H --> L[Template Repository<br/>Documentation Templates]
     
-    J --> K[Redis Cache<br/>Sessions + Temp Data]
+    I --> M[PostgreSQL<br/>Project Data + Analysis History]
+    J --> M
+    K --> N[Redis Cache<br/>Visualization + Session Data]
+    L --> M
     
-    L[Admin Dashboard<br/>Content Management] --> C
-    M[Mobile App<br/>React Native] --> C
+    O[Admin Dashboard<br/>Analytics + Management] --> C
+    P[Mobile App<br/>React Native] --> C
+    
+    Q[AI Agent Layer<br/>Repository Analysis + Guidance] --> C
+    R[MCP Servers<br/>External Tool Integration] --> Q
 ```
 
 ### Technology Stack
 
 | Layer | Technology | Rationale |
 |-------|------------|-----------|
-| **Frontend** | Next.js 14 + React 18 | SSR/SSG for SEO, excellent developer experience |
-| **Styling** | Tailwind CSS + Radix UI | Rapid development, accessible components |
-| **Backend** | Node.js + Express.js + tRPC | Type-safe APIs, familiar ecosystem |
-| **Database** | PostgreSQL 15+ | ACID compliance, JSON support, scalability |
-| **Cache** | Redis | Session management, performance optimization |
-| **Auth** | Auth0 + GitHub OAuth | Security, social login integration |
-| **Hosting** | Vercel + Railway | Easy deployment, excellent Next.js integration |
-| **Storage** | AWS S3 / Cloudflare R2 | Template assets, generated files |
+| **Frontend** | Next.js 14 + React 18 | SSR/SSG for SEO, excellent GitHub integration |
+| **Styling** | Tailwind CSS + Radix UI | Rapid development, accessible visualization components |
+| **Backend** | Node.js + Express.js + tRPC | Type-safe APIs, excellent GitHub API integration |
+| **Database** | PostgreSQL 15+ | Complex repository data relationships, JSON support |
+| **Cache** | Redis | Visualization caching, real-time analysis results |
+| **Auth** | Auth0 + GitHub OAuth | Secure repository access, social login |
+| **Repository Integration** | GitHub API + Webhooks | Real-time monitoring, comprehensive access |
+| **Hosting** | Vercel + Railway | Excellent CI/CD, GitHub integration |
+| **Visualization** | Mermaid + D3.js + Chart.js | Rich diagrams, interactive dashboards |
+| **AI/ML** | OpenAI GPT-4 + Claude | Advanced code analysis and guidance |
 | **Monitoring** | Sentry + Vercel Analytics | Error tracking, performance insights |
 
 ### Data Architecture
 
 **Core Data Models:**
-- **Users**: Authentication, preferences, project history
-- **Templates**: Structure definitions, customization options, metadata
-- **Projects**: Generated instances, status tracking, customizations
-- **ADRs**: Architectural decisions, context, consequences
-- **Community**: Ratings, reviews, contributions, achievements
+- **Users**: GitHub authentication, preferences, repository permissions
+- **Repositories**: Connected repos, analysis history, architectural metrics
+- **Analysis Results**: Pattern recognition, complexity metrics, architectural insights
+- **Visualizations**: Generated diagrams, dependency maps, cached visualizations
+- **Documentation**: ADRs, guides, automatically generated content
+- **Learning Progress**: Architectural skill assessment, personalized guidance history
 
 ---
 
@@ -252,34 +378,34 @@ graph TD
 
 ### 12-Month Gantt Schedule
 
-| Phase | Duration | Hours/Week | Key Milestones |
-|-------|----------|------------|----------------|
-| **Phase 1: Foundation** | Months 1-3 | 30-40 hrs | MVP Launch, Core Features |
-| **Phase 2: Education** | Months 4-6 | 25-35 hrs | Learning Integration, ADR System |
-| **Phase 3: Community** | Months 7-9 | 20-30 hrs | Marketplace, Social Features |
-| **Phase 4: Enterprise** | Months 10-12 | 25-35 hrs | Scaling, Partnerships |
+| Phase | Duration | Hours/Week | Key Focus Areas |
+|-------|----------|------------|-----------------|
+| **Phase 1: Repository Integration** | Months 1-3 | 35-40 hrs | GitHub API, Analysis Engine, Basic UI |
+| **Phase 2: Guidance & Visualization** | Months 4-6 | 30-35 hrs | AI Insights, Diagram Generation, Real-time Updates |
+| **Phase 3: Living Documentation** | Months 7-9 | 25-30 hrs | ADR Automation, Learning Integration, Team Features |
+| **Phase 4: Verification & Scale** | Months 10-12 | 30-35 hrs | Competency System, Enterprise Features, Multi-platform |
 
 ### Monthly Breakdown
 
-**Q1 (Foundation)**
-- **Month 1**: Infrastructure setup, authentication, basic API
-- **Month 2**: Frontend development, questionnaire system, template engine
-- **Month 3**: GitHub integration, documentation generation, testing
+**Q1 (Repository Integration Foundation)**
+- **Month 1**: GitHub OAuth, webhook system, basic repository analysis
+- **Month 2**: Pattern recognition engine, dependency mapping, user dashboard
+- **Month 3**: Real-time analysis, notification system, basic visualizations
 
-**Q2 (Education)**
-- **Month 4**: Educational content system, pattern library
-- **Month 5**: ADR tools, project health monitoring
-- **Month 6**: User experience polish, beta testing
+**Q2 (Continuous Guidance & Visualization)**
+- **Month 4**: AI-powered guidance system, architectural insight generation
+- **Month 5**: Rich visualization suite, interactive diagrams, complexity analysis
+- **Month 6**: Living documentation foundation, automated ADR generation
 
-**Q3 (Community)**
-- **Month 7**: Template marketplace foundation
-- **Month 8**: Social features, project showcases
-- **Month 9**: Community moderation, achievement system
+**Q3 (Documentation & Learning Integration)**
+- **Month 7**: Advanced documentation automation, learning content integration
+- **Month 8**: Team collaboration features, shared repository analysis
+- **Month 9**: Template scaffolding system, beginner onboarding
 
-**Q4 (Enterprise)**
-- **Month 10**: Team collaboration features
-- **Month 11**: Advanced analytics, API development
-- **Month 12**: Mobile app, enterprise partnerships
+**Q4 (Verification & Enterprise)**
+- **Month 10**: Competency scoring system, portfolio generation
+- **Month 11**: Enterprise analytics, advanced team features
+- **Month 12**: Multi-platform support, certification system launch
 
 ---
 
@@ -289,34 +415,39 @@ graph TD
 
 | Role | Phase 1-2 | Phase 3-4 | Responsibilities |
 |------|-----------|-----------|------------------|
-| **Lead Developer** | Full-time | Full-time | Architecture, backend, product strategy |
-| **Frontend Developer** | - | Part-time | UI/UX implementation, React components |
-| **DevOps Engineer** | Consultant | Part-time | Infrastructure, CI/CD, monitoring |
-| **Content Creator** | Part-time | Part-time | Educational materials, documentation |
-| **Community Manager** | - | Part-time | User engagement, content moderation |
+| **Lead Developer** | Full-time | Full-time | Repository integration, analysis engine, product strategy |
+| **Frontend Developer** | Part-time | Full-time | Dashboard UI, visualization components, user experience |
+| **DevOps Engineer** | Consultant | Part-time | GitHub integration, webhook infrastructure, monitoring |
+| **AI/ML Engineer** | - | Part-time | Analysis algorithms, pattern recognition, AI agents |
+| **Technical Writer** | Part-time | Part-time | Documentation templates, educational content |
 
-### Technology & Tooling
+### Infrastructure & Service Costs
 
-**Development Tools:**
-- GitHub Pro: $4/month
-- Vercel Pro: $20/month
-- Railway Pro: $20/month
-- Various SaaS tools: ~$50/month
+**Repository Integration Services:**
+- GitHub API (Enterprise): $21/month per user
+- Webhook processing infrastructure: $50-100/month
+- Real-time analysis computing: $200-400/month
 
-**Infrastructure Costs:**
-- **Phase 1-2**: $100-200/month
-- **Phase 3**: $300-500/month
-- **Phase 4**: $500-1000/month
+**Visualization & Documentation:**
+- Diagram generation services: $30-60/month
+- Documentation storage and processing: $40-80/month
+- CDN for visualization assets: $25-50/month
+
+**AI & Analysis:**
+- OpenAI API for code analysis: $200-500/month
+- Pattern recognition computing: $100-200/month
+- Learning content delivery: $50-100/month
 
 ### Third-Party Services
 
 | Service | Purpose | Monthly Cost |
 |---------|---------|--------------|
-| **Auth0** | Authentication | $0-$23 |
-| **GitHub API** | Repository management | Free tier |
-| **SendGrid** | Email notifications | $0-$15 |
-| **Sentry** | Error monitoring | $0-$26 |
-| **Vercel Analytics** | Performance tracking | $0-$10 |
+| **GitHub API** | Repository access and webhooks | $21+ per user |
+| **OpenAI API** | AI-powered code analysis | $200-500 |
+| **Auth0** | Authentication and GitHub OAuth | $23-100 |
+| **Vercel** | Hosting and edge computing | $20-100 |
+| **Railway** | Database and backend services | $20-80 |
+| **Sentry** | Error monitoring and performance | $26-100 |
 
 ---
 
@@ -326,41 +457,27 @@ graph TD
 
 | Risk | Impact | Probability | Mitigation Strategy |
 |------|--------|-------------|-------------------|
-| **Template Generation Complexity** | High | Medium | Start simple, iterate based on user feedback |
-| **GitHub API Rate Limits** | Medium | Low | Implement caching, user authentication |
-| **Scalability Bottlenecks** | High | Medium | Cloud-native design, horizontal scaling plan |
-| **Code Quality in Templates** | Medium | Medium | Rigorous review process, automated testing |
+| **GitHub API Rate Limits** | High | Medium | Implement intelligent caching, user-based rate limiting, webhook optimization |
+| **Repository Analysis Complexity** | High | Medium | Start with popular languages/frameworks, gradual language support expansion |
+| **Real-time Processing Scale** | High | Medium | Queue-based processing, horizontal scaling, intelligent batching |
+| **Visualization Performance** | Medium | Low | Client-side rendering optimization, caching strategies, progressive loading |
 
 ### Product Risks
 
 | Risk | Impact | Probability | Mitigation Strategy |
 |------|--------|-------------|-------------------|
-| **User Adoption** | High | Medium | Strong MVP, early user research, iterative development |
-| **Educational Content Quality** | Medium | Low | Subject matter expert review, user feedback loops |
-| **Template Maintenance Burden** | High | Medium | Community contributions, automated updates |
-| **Competition from Established Players** | Medium | High | Focus on architecture-first differentiation |
+| **Repository Permission Concerns** | High | Medium | Transparent permission requests, minimal access requirements, clear privacy policy |
+| **Analysis Accuracy** | High | Medium | Continuous validation, user feedback loops, expert review processes |
+| **User Adoption of Repository Integration** | High | Medium | Seamless onboarding, immediate value demonstration, gradual feature introduction |
+| **Competition from GitHub Native Features** | Medium | High | Focus on advanced analysis and visualization GitHub doesn't provide |
 
 ### Business Risks
 
 | Risk | Impact | Probability | Mitigation Strategy |
 |------|--------|-------------|-------------------|
-| **Funding Requirements** | High | Low | Bootstrap approach, minimal viable features |
-| **Team Scaling Challenges** | Medium | Medium | Careful hiring, strong documentation culture |
-| **Market Timing** | Medium | Low | Strong technical trends support the need |
-
-### Mitigation Strategies
-
-**Technical Mitigations:**
-- Comprehensive testing strategy (unit, integration, E2E)
-- Performance monitoring and alerting
-- Gradual feature rollout with feature flags
-- Regular security audits and updates
-
-**Product Mitigations:**
-- Continuous user feedback collection
-- A/B testing for major features
-- Community-driven quality assurance
-- Regular competitive analysis
+| **GitHub API Policy Changes** | High | Low | Multi-platform support (GitLab, Bitbucket), own analysis capabilities |
+| **AI/ML Service Dependencies** | Medium | Medium | Multiple AI provider integration, local analysis capabilities |
+| **Privacy and Security Compliance** | High | Low | SOC 2 compliance, regular security audits, transparent data handling |
 
 ---
 
@@ -368,446 +485,160 @@ graph TD
 
 ### Primary KPIs
 
-#### Template Usage Metrics
-- **Monthly Active Users**: Target 2,000 by Month 6, 10,000 by Month 12
-- **Projects Generated**: Target 5,000 by Month 6, 25,000 by Month 12
-- **Template Completion Rate**: Maintain >70% completion rate
-- **Template Diversity**: 15+ templates by Month 12
+#### Repository Integration Metrics
+- **Connected Repositories**: Target 1,000 by Month 6, 10,000 by Month 12
+- **Active Analysis Sessions**: Target 5,000 by Month 6, 25,000 by Month 12
+- **Real-time Insight Delivery**: <5 seconds for 95% of code change analyses
+- **Repository Coverage**: Cover 80% of popular language/framework combinations
 
-#### Learning Outcomes
-- **ADR Creation Rate**: >80% of users create at least 3 ADRs
-- **Knowledge Assessment Scores**: 40%+ improvement pre/post platform usage
-- **Community Engagement**: 1,000+ monthly forum interactions by Month 12
-- **Educational Content Consumption**: >60% engagement with learning materials
+#### Continuous Guidance Effectiveness
+- **Guidance Acceptance Rate**: >70% of architectural suggestions followed
+- **Code Quality Improvement**: 40%+ reduction in architectural anti-patterns
+- **Developer Skill Growth**: 50%+ improvement in architectural assessment scores
+- **Time to Architectural Insight**: <1 minute from code commit to guidance
 
-#### Project Health Indicators
-- **GitHub Repository Activity**: >90% of generated projects have commits beyond initial
-- **Project Longevity**: >50% of projects active after 3 months
-- **Documentation Quality**: Average documentation score >4.0/5.0
-- **Architecture Decision Coverage**: >5 ADRs per completed project
+#### Visualization & Documentation Quality
+- **Documentation Coverage**: >90% of connected repositories have active ADRs
+- **Visualization Usage**: >80% of users regularly view generated diagrams
+- **Documentation Accuracy**: >85% of auto-generated documentation rated as accurate
+- **Living Documentation Updates**: 95% of relevant code changes trigger documentation updates
 
 #### User Growth & Retention
-- **Monthly User Growth**: 20%+ month-over-month growth
-- **User Retention**: >60% return within 30 days
-- **Conversion Rate**: >15% from visitor to registered user
-- **Net Promoter Score**: Target >50 NPS
+- **Monthly Active Repositories**: 20%+ month-over-month growth
+- **User Retention**: >70% return within 30 days of repository connection
+- **Premium Conversion**: >25% of users upgrade for advanced features
+- **Net Promoter Score**: Target >60 NPS
 
 ### Secondary Metrics
 
 #### Platform Performance
-- **Page Load Time**: <2 seconds for 95% of requests
-- **Template Generation Time**: <10 seconds average
-- **System Uptime**: >99.5% availability
-- **API Response Time**: <500ms for 95% of endpoints
+- **Analysis Processing Time**: <30 seconds for 95% of repository analyses
+- **Visualization Generation**: <10 seconds for standard diagrams
+- **System Uptime**: >99.9% availability for GitHub webhook processing
+- **API Response Time**: <200ms for 95% of user interface requests
 
-#### Community Health
-- **Community Contributions**: 100+ user-contributed templates by Month 12
-- **Peer Reviews**: 500+ template reviews by community
-- **Mentor Participation**: 50+ active mentors on platform
-- **Content Quality**: >4.5/5.0 average community content rating
+#### Educational Impact
+- **Architectural Competency Growth**: 45%+ improvement in skill assessments
+- **Learning Content Engagement**: >60% engagement with contextual educational content
+- **Certification Completion**: 100+ verified architectural portfolios by Month 12
+- **Recruiter Adoption**: 50+ companies using Atelier portfolios for technical assessment
 
 #### Business Metrics
-- **Customer Acquisition Cost**: <$10 per registered user
-- **Lifetime Value**: >$100 per active user (future monetization)
-- **Churn Rate**: <5% monthly churn rate
-- **Support Ticket Volume**: <2% of users require support monthly
+- **Repository Connection Rate**: >40% of trial users connect at least one repository
+- **Feature Adoption**: >60% of connected repositories use visualization features
+- **Support Efficiency**: <1% of users require technical support monthly
+- **Revenue per Connected Repository**: Target $5+ monthly average
 
 ---
 
 ## 🔄 Evaluation & Iteration
 
-### Monthly Review Process
+### Weekly Analysis Cycle
 
-**Performance Review:**
-- Analyze key metrics against targets
-- Identify bottlenecks and improvement opportunities
-- Review user feedback and support tickets
-- Assess technical debt and infrastructure needs
+**Repository Health Monitoring:**
+- Track analysis accuracy and user feedback on architectural insights
+- Monitor webhook processing performance and GitHub API usage
+- Analyze visualization generation success rates and user engagement
+- Review documentation quality and automated ADR accuracy
 
-**User Research:**
-- Conduct user interviews (5-10 per month)
-- Survey user satisfaction and feature requests
-- Analyze user behavior through analytics
-- Monitor community discussions and sentiment
+**User Behavior Analysis:**
+- Track repository connection patterns and onboarding success
+- Analyze feature adoption rates and user journey progression
+- Monitor guidance acceptance rates and architectural improvements
+- Assess learning content engagement and competency growth
 
-**Technical Assessment:**
-- Review system performance and scalability
-- Evaluate code quality and test coverage
-- Assess security vulnerabilities and compliance
-- Plan technical improvements and optimizations
+### Monthly Strategic Review
 
-### Quarterly Planning Cycles
+**Product-Market Fit Assessment:**
+- Evaluate user retention and repository connection growth
+- Analyze feedback on architectural guidance quality and relevance
+- Review competitive landscape and differentiation opportunities
+- Assess enterprise interest and potential partnership opportunities
 
-**Strategic Review:**
-- Evaluate progress against roadmap milestones
-- Assess market conditions and competitive landscape
-- Review resource allocation and team performance
-- Update product strategy based on learnings
+**Technical Performance Review:**
+- Monitor system scalability and GitHub integration stability
+- Evaluate AI analysis accuracy and processing efficiency
+- Review visualization performance and user experience metrics
+- Assess documentation automation quality and coverage
+
+### Quarterly Platform Evolution
 
 **Feature Prioritization:**
-- Analyze user feedback and feature requests
-- Evaluate technical feasibility and resource requirements
-- Prioritize features based on impact and effort
-- Update development roadmap for next quarter
+- Analyze user requests for new analysis capabilities
+- Evaluate opportunities for additional repository platform support
+- Review AI agent integration possibilities and MCP implementation
+- Assess enterprise feature requirements and team collaboration needs
 
-**Risk Assessment:**
-- Review and update risk register
-- Evaluate effectiveness of mitigation strategies
-- Identify new risks and opportunities
-- Adjust plans based on risk analysis
-
-### Continuous Improvement Framework
-
-**Data-Driven Decisions:**
-- A/B testing for major feature changes
-- Cohort analysis for user retention optimization
-- Performance benchmarking against industry standards
-- Regular competitive analysis and positioning
-
-**User-Centric Development:**
-- Regular user advisory board meetings
-- Beta testing program for new features
-- Community feedback integration process
-- User experience research and optimization
-
-**Technical Excellence:**
-- Regular code reviews and refactoring
-- Performance optimization initiatives
-- Security audits and compliance updates
-- Infrastructure scaling and modernization
+**Architectural Health Assessment:**
+- Review platform architecture and scalability requirements
+- Evaluate integration stability and third-party service dependencies
+- Assess data architecture and analysis pipeline efficiency
+- Plan infrastructure improvements and cost optimizations
 
 ---
 
 ## 🎯 Conclusion & Next Steps
 
-### The Focused Vision
+### The Transformed Vision
 
-Atelier represents a fundamental shift in how developers learn software architecture. By combining intelligent project scaffolding with educational guidance and community-driven knowledge sharing, we're creating the first platform specifically designed to bridge the gap between coding tutorials and production-ready architectural thinking.
+Atelier represents a fundamental shift from template-based development to continuous architectural intelligence. By connecting directly to developers' existing repositories and providing real-time analysis, rich visualizations, and living documentation, we address the core challenge of the AI development era: maintaining architectural learning while accelerating development speed.
 
 **Our Unique Value Proposition:**
-- **Architecture-First**: We teach system design through practice, not theory
-- **Living Documentation**: Every project maintains professional-grade architectural records
-- **Community Learning**: Developers learn from each other's architectural decisions
-- **Career Acceleration**: Portfolio projects that demonstrate senior-level thinking
+- **Repository-Centric**: Analyzes real projects, not theoretical exercises
+- **Continuous Intelligence**: Provides ongoing guidance as projects evolve
+- **Rich Visualizations**: Automated diagrams and architectural insights
+- **Verified Competency**: Demonstrates genuine architectural thinking to recruiters
+- **AI Paradox Solution**: Ensures AI acceleration enhances rather than replaces architectural learning
 
 ### Immediate Action Items
 
-#### Week 1-2: Concept Validation
-- [ ] Conduct 15 developer interviews to validate problem assumptions
-- [ ] Create detailed user journey maps for primary personas
-- [ ] Analyze competitor platforms and identify differentiation opportunities
-- [ ] Validate technical architecture with industry mentors
+#### Week 1-2: Technical Foundation
+- [ ] Set up GitHub OAuth integration and repository access permissions
+- [ ] Create webhook infrastructure for real-time repository monitoring
+- [ ] Implement basic repository analysis for JavaScript/TypeScript projects
+- [ ] Design database schema for repository data and analysis results
 
-#### Week 3-4: Environment Setup
-- [ ] Set up development environment and repository structure
-- [ ] Configure hosting infrastructure (Vercel + Railway)
-- [ ] Implement basic authentication and user management
-- [ ] Create foundational API structure with tRPC
+#### Week 3-4: Analysis Engine Development
+- [ ] Build pattern recognition system for common architectural patterns
+- [ ] Implement dependency analysis and architectural boundary detection
+- [ ] Create basic visualization generation (Mermaid diagram integration)
+- [ ] Develop user dashboard for repository management and insights
 
-#### Month 2: Core Development
-- [ ] Build interactive questionnaire system
-- [ ] Develop template generation engine
-- [ ] Implement GitHub integration for repository creation
-- [ ] Create first 3 project templates with documentation
+#### Month 2: Core Platform Development
+- [ ] Implement real-time analysis pipeline and notification system
+- [ ] Build comprehensive visualization suite (dependency maps, complexity analysis)
+- [ ] Create automated ADR generation and documentation templates
+- [ ] Develop user onboarding flow for repository connection
 
-#### Month 3: MVP Completion
-- [ ] Complete frontend user interface
-- [ ] Implement project management dashboard
-- [ ] Add educational content and ADR templates
-- [ ] Conduct comprehensive testing and bug fixes
+#### Month 3: AI Integration & Polish
+- [ ] Integrate AI-powered architectural guidance and insight generation
+- [ ] Implement living documentation system with automatic updates
+- [ ] Create learning content delivery system based on code analysis
+- [ ] Conduct comprehensive testing and performance optimization
 
 ### Success Criteria for Go/No-Go Decision
 
 **Technical Validation:**
-- Template generation system works reliably for 3 project types
-- GitHub integration successfully creates repositories with proper structure
-- Documentation generation produces high-quality ADRs and guides
+- Repository analysis accurately identifies architectural patterns in 85%+ of test cases
+- Webhook processing handles real-time updates with <5 second latency
+- Visualization generation produces accurate, useful diagrams for all major project types
 
 **Market Validation:**
-- 100+ beta users complete at least one project
-- 80%+ of beta users rate the experience 4/5 or higher
-- 50%+ of beta users express willingness to pay for premium features
+- 200+ developers connect repositories during beta testing
+- 80%+ of beta users rate architectural insights as valuable (4/5 or higher)
+- 60%+ of beta users demonstrate improved architectural understanding through analysis
 
 **Product-Market Fit Indicators:**
-- Users organically share projects created with Atelier
-- Requests for additional template types and customization options
-- Community engagement with educational content and discussions
+- Users organically share architectural insights and visualizations from their projects
+- Requests for additional repository platform support (GitLab, Bitbucket)
+- Enterprise inquiries about team collaboration and advanced analytics features
 
-### The Path Forward
+### The Architectural Intelligence Future
 
-Atelier isn't just another developer tool—it's a movement toward architectural literacy in software development. By starting with a focused MVP and iterating based on real user needs, we'll build the platform that transforms how developers learn, practice, and demonstrate their architectural thinking.
+Atelier isn't just another developer tool—it's the foundation for a new era of architectural intelligence. By starting with repository integration and continuous guidance, we're building the platform that ensures every developer can demonstrate genuine architectural competency in an AI-accelerated world.
 
-The future belongs to developers who can design systems, not just write code. Atelier will be their workshop, their guide, and their community.
-
----
-
-*Ready to build the future of architectural education? Let's begin.*
-
-
-
-# Post-MVP: AI Agents & MCP Integration
-
-*Insert this section between 'Development Roadmap' and 'System Architecture'*
-
-## 🤖 Phase 5: Intelligent Architecture Assistant 
-### Strategic Positioning
-After establishing core platform functionality and user adoption, Atelier will integrate advanced AI agents and Model Context Protocol (MCP) capabilities to transform from a scaffolding platform into an intelligent architectural mentorship system.
-
-### AI Agent Architecture
-
-```mermaid
-graph TD
-    A[User Request] --> B[Intent Classification Agent]
-    B --> C{Request Type}
-    
-    C -->|Architecture Review| D[Architecture Analysis Agent]
-    C -->|Code Generation| E[Code Generation Agent]
-    C -->|Documentation| F[Documentation Agent]
-    C -->|Learning Path| G[Educational Guidance Agent]
-    
-    D --> H[MCP Server: Architecture Tools]
-    E --> I[MCP Server: Code Analysis]
-    F --> J[MCP Server: Documentation]
-    G --> K[MCP Server: Learning Analytics]
-    
-    H --> L[Agent Coordination Layer]
-    I --> L
-    J --> L
-    K --> L
-    
-    L --> M[Response Synthesis]
-    M --> N[User Interface]
-    
-    O[Project Context Store] --> H
-    O --> I
-    O --> J
-    O --> K
-```
-
-### Core AI Capabilities
-
-#### 1. 🏗️ Architecture Review Agent
-**Purpose**: Analyze project structures and provide architectural feedback
-
-**Key Features:**
-- **Pattern Recognition**: Identifies architectural patterns and anti-patterns in generated projects
-- **Complexity Analysis**: Evaluates system complexity and suggests simplifications
-- **Best Practice Enforcement**: Flags deviations from established architectural principles
-- **Evolution Guidance**: Recommends architectural improvements as projects grow
-
-**MCP Integration:**
-- **Architecture Analysis Server**: Connects to static analysis tools, dependency analyzers
-- **Pattern Library Server**: Accesses curated architectural pattern database
-- **Compliance Server**: Integrates with industry standard checkers (SOLID, Clean Architecture)
-
-#### 2. 📚 Educational Guidance Agent
-**Purpose**: Provide personalized learning paths and architectural mentorship
-
-**Key Features:**
-- **Skill Assessment**: Evaluates current architectural understanding through project analysis
-- **Learning Path Generation**: Creates customized educational sequences based on user projects
-- **Contextual Explanations**: Provides just-in-time learning content during development
-- **Progress Tracking**: Monitors architectural skill development over time
-
-**MCP Integration:**
-- **Learning Analytics Server**: Tracks user progress, identifies knowledge gaps
-- **Content Recommendation Server**: Suggests relevant articles, patterns, case studies
-- **Assessment Server**: Generates architecture challenges and evaluates solutions
-
-#### 3. 🔍 Code Generation Agent
-**Purpose**: Generate architecturally-sound code based on high-level specifications
-
-**Key Features:**
-- **Context-Aware Generation**: Understands existing project architecture before adding code
-- **Pattern Implementation**: Generates code following established architectural patterns
-- **ADR-Driven Development**: Creates code that aligns with documented architectural decisions
-- **Incremental Enhancement**: Adds features while maintaining architectural integrity
-
-**MCP Integration:**
-- **Code Analysis Server**: Analyzes existing codebase before generating new code
-- **Template Engine Server**: Accesses advanced templating and generation capabilities
-- **Quality Assurance Server**: Validates generated code against project standards
-
-#### 4. 📝 Documentation Agent
-**Purpose**: Maintain and enhance architectural documentation throughout project lifecycle
-
-**Key Features:**
-- **Automatic ADR Updates**: Tracks architectural changes and updates decision records
-- **Living Diagram Generation**: Creates and maintains architectural diagrams
-- **Onboarding Documentation**: Generates project setup and contribution guides
-- **Technical Debt Tracking**: Documents and tracks architectural compromises
-
-**MCP Integration:**
-- **Documentation Server**: Connects to documentation tools (Notion, Confluence, GitHub Wiki)
-- **Diagram Generation Server**: Integrates with Mermaid, PlantUML, Draw.io
-- **Version Control Server**: Tracks documentation changes alongside code changes
-
-### Model Context Protocol (MCP) Implementation
-
-#### MCP Server Architecture
-
-**Core MCP Servers:**
-
-1. **Architecture Analysis MCP Server**
-   ```typescript
-   // Tools exposed via MCP
-   - analyze_project_structure()
-   - detect_architectural_patterns()
-   - evaluate_complexity_metrics()
-   - suggest_refactoring_opportunities()
-   ```
-
-2. **Educational Content MCP Server**
-   ```typescript
-   // Resources and tools
-   - get_learning_path(user_skill_level, project_type)
-   - fetch_relevant_patterns(current_context)
-   - generate_practice_exercises(focus_area)
-   - track_learning_progress(user_id, skill_assessment)
-   ```
-
-3. **Code Generation MCP Server**
-   ```typescript
-   // Generation capabilities
-   - generate_component(specification, architectural_context)
-   - create_integration_layer(service_requirements)
-   - implement_pattern(pattern_type, project_context)
-   - refactor_for_pattern(existing_code, target_pattern)
-   ```
-
-4. **Documentation MCP Server**
-   ```typescript
-   // Documentation tools
-   - update_adr(decision_id, new_context)
-   - generate_architecture_diagram(project_structure)
-   - create_onboarding_guide(project_complexity)
-   - track_technical_debt(debt_items)
-   ```
-
-#### MCP Integration Benefits
-
-**For Developers:**
-- **Seamless Tool Integration**: AI agents can access and manipulate external tools directly
-- **Context Preservation**: Maintains project context across different AI interactions
-- **Extensible Capabilities**: Easy to add new tools and capabilities through MCP
-- **Standardized Interfaces**: Consistent interaction patterns across all AI capabilities
-
-**For Platform Evolution:**
-- **Modular Architecture**: Each capability can be developed and deployed independently
-- **Third-Party Integration**: External tools can easily integrate through MCP protocol
-- **Scalable Infrastructure**: Distribute AI capabilities across multiple servers
-- **Community Extensions**: Allow community to build and share MCP servers
-
-### Implementation Roadmap
-
-#### Month : Foundation
-**Infrastructure Setup:**
-- ✅ Deploy MCP server infrastructure
-- ✅ Implement agent coordination layer
-- ✅ Create basic architecture analysis capabilities
-- ✅ Integrate with existing project data
-
-**Success Criteria:**
-- MCP servers respond within 2 seconds
-- Basic architectural analysis works for 80% of project types
-- Agent coordination handles 3+ concurrent requests
-
-#### Month: Core Agents
-**Agent Development:**
-- ✅ Complete Architecture Review Agent
-- ✅ Deploy Educational Guidance Agent
-- ✅ Implement basic code generation capabilities
-- ✅ Create documentation automation features
-
-**Success Criteria:**
-- Agents provide accurate feedback for 85% of analyzed projects
-- Educational recommendations improve user skill assessments by 25%
-- Generated code passes architectural review 90% of the time
-
-#### Month : Integration & Polish
-**Platform Integration:**
-- ✅ Integrate AI agents into main user interface
-- ✅ Implement user preference learning
-- ✅ Create agent interaction analytics
-- ✅ Deploy advanced conversation capabilities
-
-**Success Criteria:**
-- 70% of users interact with AI agents weekly
-- Agent recommendations are followed 60% of the time
-- User satisfaction with AI assistance >4.2/5.0
-
-### Advanced Capabilities
-
-#### Multi-Agent Collaboration
-**Orchestrated Workflows:**
-- **Project Kickoff**: Architecture Review → Educational Guidance → Code Generation
-- **Feature Addition**: Analysis → Pattern Selection → Implementation → Documentation
-- **Refactoring**: Complexity Assessment → Pattern Recommendation → Code Updates → ADR Updates
-
-#### Continuous Learning System
-**Agent Improvement:**
-- **Feedback Integration**: Learn from user acceptance/rejection of suggestions
-- **Project Outcome Analysis**: Correlate advice quality with project success metrics
-- **Community Knowledge**: Incorporate insights from successful community projects
-- **Expert Validation**: Regular review by senior architects for quality assurance
-
-#### Enterprise Capabilities
-**Team Collaboration:**
-- **Shared Context**: Agents understand team architectural standards and preferences
-- **Consistency Enforcement**: Ensure architectural decisions align across team projects
-- **Knowledge Transfer**: Capture and share architectural insights across team members
-- **Compliance Monitoring**: Automatically check projects against enterprise standards
-
-### Resource Requirements
-
-#### Additional Infrastructure
-| Component | Monthly Cost | Purpose |
-|-----------|--------------|---------|
-| **AI Model APIs** | $200-500 | GPT-4, Claude integration for agents |
-| **Vector Database** | $50-100 | Semantic search for architectural patterns |
-| **Message Queue** | $25-50 | Agent coordination and async processing |
-| **Analytics Storage** | $30-75 | Agent interaction and improvement data |
-
-#### Team Expansion
-| Role | Timeline | Responsibility |
-|------|----------|----------------|
-| **AI Engineer** | Month 13+ | Agent development, MCP server implementation |
-| **ML Operations** | Month 15+ | Model deployment, monitoring, optimization |
-| **Solution Architect** | Consultant | AI system architecture, integration strategy |
-
-### Success Metrics
-
-#### Agent Performance
-- **Response Accuracy**: >85% of agent suggestions deemed helpful by users
-- **Response Time**: <3 seconds for 95% of agent interactions
-- **Context Retention**: Agents remember project context across 90% of sessions
-- **Learning Effectiveness**: 40% improvement in user architectural assessments
-
-#### User Engagement
-- **AI Adoption Rate**: >60% of active users interact with agents monthly
-- **Feature Usage**: >70% of generated projects use AI-suggested improvements
-- **Satisfaction Scores**: >4.0/5.0 rating for AI assistance quality
-- **Retention Impact**: 25% improvement in user retention with AI features enabled
-
-#### Business Impact
-- **Project Quality**: 30% reduction in architectural anti-patterns in AI-assisted projects
-- **Time to Value**: 50% faster project setup and initial development
-- **Educational Outcomes**: 45% improvement in architectural skill assessments
-- **Platform Differentiation**: Clear competitive advantage in architectural education space
-
-### Risk Mitigation
-
-#### Technical Risks
-- **AI Hallucination**: Implement validation layers and confidence scoring
-- **Performance Degradation**: Optimize agent response times and implement caching
-- **Context Loss**: Robust session management and project state persistence
-- **Integration Complexity**: Comprehensive testing of MCP server interactions
-
-#### User Experience Risks
-- **Over-Reliance on AI**: Balance automation with educational value
-- **Inconsistent Advice**: Ensure agent coordination prevents conflicting recommendations
-- **Learning Curve**: Gradual rollout with extensive documentation and tutorials
-- **Privacy Concerns**: Clear data usage policies and user control over AI interactions
+The future belongs to developers who can design systems, not just write code. Atelier will be their continuous mentor, their documentation partner, and their verification system.
 
 ---
 
+*Ready to transform how developers learn and demonstrate architectural thinking? Let's connect your first repository.*
